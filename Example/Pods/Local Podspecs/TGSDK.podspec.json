@@ -1,0 +1,62 @@
+{
+  "name": "TGSDK",
+  "version": "1.4.0.0.0",
+  "summary": "Yomob Ad SDK",
+  "description": "Yomob Ad SDK.",
+  "homepage": "http://yomob.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyin": "liy@soulgame.com"
+  },
+  "source": {
+    "git": "https://github.com/soulgame/TGSDK.git",
+    "tag": "1.4.0.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TGSDK/Classes/**/*",
+  "resource_bundles": {
+    "TGSDK": [
+      "TGSDK/Assets/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/include/TGSDK/TGSDK.h",
+  "libraries": [
+    "c++",
+    "sqlite3",
+    "xml2",
+    "z"
+  ],
+  "vendored_libraries": "TGSDK/libTGSDK.1.4.0.0.0.a",
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreTelephony",
+    "EventKit",
+    "iAd",
+    "MediaPlayer",
+    "MessageUI",
+    "MobileCoreServices",
+    "QuartzCore",
+    "Social",
+    "StoreKit",
+    "SystemConfiguration",
+    "WebKit"
+  ],
+  "vendored_frameworks": [
+    "TGSDK/frameworks/AdColony.framework",
+    "TGSDK/frameworks/AppLovinSDK.framework",
+    "TGSDK/frameworks/ChanceAdSDK.framework",
+    "TGSDK/frameworks/Chartboost.framework",
+    "TGSDK/frameworks/FBAudienceNetwork.framework",
+    "TGSDK/frameworks/FMDB.framework",
+    "TGSDK/frameworks/NativeXSDK.framework",
+    "TGSDK/frameworks/UnityAds.framework",
+    "TGSDK/frameworks/VungleSDK.framework"
+  ]
+}

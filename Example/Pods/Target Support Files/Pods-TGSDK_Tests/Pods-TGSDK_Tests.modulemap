@@ -1,0 +1,6 @@
+framework module Pods_TGSDK_Tests {
+  umbrella header "Pods-TGSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
