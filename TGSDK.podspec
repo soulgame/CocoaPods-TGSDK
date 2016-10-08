@@ -25,7 +25,7 @@ Yomob Ad SDK.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liyin' => 'liy@soulgame.com' }
-  s.source           = { :git => 'https://github.com/soulgame/TGSDK.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/soulgame/CocoaPods-TGSDK.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,7 @@ Yomob Ad SDK.
      'TGSDK' => ['TGSDK/Assets/*']
   }
 
-  s.public_header_files = 'Pod/Classes/include/TGSDK/TGSDK.h'
+  s.public_header_files = 'TGSDK/Classes/include/TGSDK/TGSDK.h'
   s.library = 'c++', 'sqlite3', 'xml2', 'z'
   s.vendored_libraries = "TGSDK/libTGSDK.#{s.version}.a"
   s.frameworks = 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreTelephony', 'EventKit', 'iAd', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Social', 'StoreKit', 'SystemConfiguration', 'WebKit'
