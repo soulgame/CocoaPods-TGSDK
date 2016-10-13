@@ -1,1 +1,0 @@
-../../../../../../../../../../../../Users/leenjewel/workspaces/cocopodsTGSDK/TGSDK/Classes/include/TGSDK/TGSDK.h

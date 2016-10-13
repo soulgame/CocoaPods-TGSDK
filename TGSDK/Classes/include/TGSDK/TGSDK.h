@@ -65,9 +65,9 @@ typedef enum {
 
 @interface TGSDK : NSObject
 
-@property (strong, nonatomic, readonly) NSString* _Nonnull appID;
-@property (strong, nonatomic, readonly) NSString* _Nonnull publisherID;
-@property (strong, nonatomic, readonly) NSString* _Nonnull channelID;
+@property (strong, nonatomic) NSString* _Nonnull appID;
+@property (strong, nonatomic) NSString* _Nonnull publisherID;
+@property (strong, nonatomic) NSString* _Nonnull channelID;
 @property (strong, nonatomic, readonly) NSString* _Nonnull udid;
 @property (strong, nonatomic, readonly) NSString* _Nullable tgid;
 @property (strong, nonatomic, readonly) NSString* _Nullable userRegisterDate;
@@ -87,6 +87,8 @@ typedef enum {
 
 + (void) initialize:(NSString* _Nonnull)appid
            callback:(TGSDKServiceResultCallBack _Nullable)cb;
+
++ (void) initialize:(TGSDKServiceResultCallBack _Nullable)cb;
 
 +(void)initSDK:(NSString* _Nonnull)appID
     publisherID:(NSString* _Nonnull)publisherID

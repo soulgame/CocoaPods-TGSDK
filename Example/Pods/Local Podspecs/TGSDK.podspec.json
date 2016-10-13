@@ -12,7 +12,7 @@
     "liyin": "liy@soulgame.com"
   },
   "source": {
-    "git": "https://github.com/soulgame/TGSDK.git",
+    "git": "https://github.com/soulgame/CocoaPods-TGSDK.git",
     "tag": "1.4.0.0.0"
   },
   "platforms": {
@@ -24,7 +24,7 @@
       "TGSDK/Assets/*"
     ]
   },
-  "public_header_files": "Pod/Classes/include/TGSDK/TGSDK.h",
+  "public_header_files": "TGSDK/Classes/include/TGSDK/TGSDK.h",
   "libraries": [
     "c++",
     "sqlite3",
@@ -57,6 +57,8 @@
     "TGSDK/frameworks/FMDB.framework",
     "TGSDK/frameworks/NativeXSDK.framework",
     "TGSDK/frameworks/UnityAds.framework",
-    "TGSDK/frameworks/VungleSDK.framework"
+    "TGSDK/frameworks/VungleSDK.framework",
+    "TGSDK/frameworks/DomobVideoSDK.framework",
+    "TGSDK/frameworks/DianjoyVideo.framework"
   ]
 }
