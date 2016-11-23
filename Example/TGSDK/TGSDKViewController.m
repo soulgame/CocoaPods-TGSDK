@@ -29,8 +29,7 @@
     [[self view] addSubview:[self sceneSpinner]];
     
     [TGSDK setDebugModel:YES];
-    
-    [TGSDK initialize:@"sampleapp" callback:^(BOOL success, id tag, NSDictionary *result) {
+    [TGSDK initialize:@"new_face01" callback:^(BOOL success, id tag, NSDictionary *result) {
         dispatch_async(dispatch_get_main_queue(), ^{
             [self showAlert:@"TGSDK init finished" message:@"TGSDK init finished"];
         });

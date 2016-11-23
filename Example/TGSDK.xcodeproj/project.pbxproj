@@ -529,7 +529,7 @@
 				GCC_PREFIX_HEADER = "TGSDK/TGSDK-Prefix.pch";
 				INFOPLIST_FILE = "TGSDK/TGSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulgame.cw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -545,7 +545,7 @@
 				GCC_PREFIX_HEADER = "TGSDK/TGSDK-Prefix.pch";
 				INFOPLIST_FILE = "TGSDK/TGSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soulgame.cw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
