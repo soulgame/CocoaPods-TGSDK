@@ -7,108 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0293F70DF6E7985D25E5EDC280926054 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3694DF019BB2BC89248E7302DDC4BB /* vg_cta.png */; };
-		04CA1CCB149D3847EC3172879A0E5134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		06942CA5766ED20F3C9CC1F8D9C831D3 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E905D37F0E03C5F11C1CA0B7BC995D /* vg_mute_off.png */; };
-		1315276DB341BF4B6287BF3AEB366AF2 /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2AA99096B458D6EBECD606585DBF37 /* vg_privacy.png */; };
-		289DF91592983859D645EC0D94B68C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		536A2A69E7BB3FD86F7C16A61C6F995B /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F69933A2A83C5FEC022BA4D5E935CA1 /* vg_close.png */; };
-		630E2F6A8A8C3A13BFC46E1BBBA8DA36 /* IndependentVideoBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C7BDC7D8856484964B097F6691AC6DCD /* IndependentVideoBundle.bundle */; };
-		96168AF455B3F3EF2D7A0F2D1BFEDAEA /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0593A8186B791D994BCC733E88BDF /* vg_mute_on.png */; };
-		9E15B91F0B5522E9146EC73F147A8D75 /* ChanceAdRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45AF422FCD3B066525B2FD956035CEFF /* ChanceAdRes.bundle */; };
-		9E730B1E5E6D5493F06B125E07777A7F /* Pods-TGSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FF446737C6DDCFFB53D2BEE7F87C3 /* Pods-TGSDK_Example-dummy.m */; };
-		A214F59BC436215903679A103C89390B /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 262517C33B5CD045F14D78515B4DD0F5 /* UnityAds.bundle */; };
-		AEFB50BE4F9074C6BBFAE2E945ADF0B8 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 04ECE311064264DCE017D34907F62613 /* __vungle.db */; };
-		C93E63CD6152E5FDE8638573876BED38 /* Pods-TGSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5A687FAEFA1179A8CA3F0C9D71D963 /* Pods-TGSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9C3F328DB7D7967B920EFE39CC69F97 /* Pods-TGSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCDE85815B6D4A279A831FA2A80E4EB /* Pods-TGSDK_Tests-dummy.m */; };
-		F9B234A0828F1D2324CDC48C47894FEC /* Pods-TGSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D6AB7C2AEB49A2A45AD7AD7B2868E7 /* Pods-TGSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B19C0CD9E3FDFE857F0D1ED4D2FF67F /* IndependentVideoBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C7BDC7D8856484964B097F6691AC6DCD /* IndependentVideoBundle.bundle */; };
+		337AF24F6241AEE398299462B2C48BF1 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E905D37F0E03C5F11C1CA0B7BC995D /* vg_mute_off.png */; };
+		4D91D3921B2C50C2FD182B0D5265D2AE /* Pods-TGSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5A687FAEFA1179A8CA3F0C9D71D963 /* Pods-TGSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567794FFC8EB8B525695937F6C64FD62 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0593A8186B791D994BCC733E88BDF /* vg_mute_on.png */; };
+		59E190E956A9DD3123DFFF1F861C26E0 /* Pods-TGSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCDE85815B6D4A279A831FA2A80E4EB /* Pods-TGSDK_Tests-dummy.m */; };
+		6A5C51203FEAFF49580EC31711AC0F42 /* Pods-TGSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FF446737C6DDCFFB53D2BEE7F87C3 /* Pods-TGSDK_Example-dummy.m */; };
+		7DBAC8F0F2BCC4DF1A4E25181B1639C4 /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 262517C33B5CD045F14D78515B4DD0F5 /* UnityAds.bundle */; };
+		969B4F203597028BB16FCC226F7E6925 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F69933A2A83C5FEC022BA4D5E935CA1 /* vg_close.png */; };
+		C0A6B781F0D63B02ACC3FA8D9D12A172 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3694DF019BB2BC89248E7302DDC4BB /* vg_cta.png */; };
+		C5BEE81A5B25AE2AEDBDCB25AE5BF213 /* Pods-TGSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D6AB7C2AEB49A2A45AD7AD7B2868E7 /* Pods-TGSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C81925BB6170187BD7A12C199B463337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D56F470B62CC1650029AACFACF22B64F /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2AA99096B458D6EBECD606585DBF37 /* vg_privacy.png */; };
+		D61F67ADC5D411EB2E371F902FB1F7AA /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 04ECE311064264DCE017D34907F62613 /* __vungle.db */; };
+		E8CFC3A40041E59FC8D0722BB8ACDA61 /* ChanceAdRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45AF422FCD3B066525B2FD956035CEFF /* ChanceAdRes.bundle */; };
+		FA25BF15A333C8AAC07C09C54ED79A4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		054BD4236CB83C74E6E6A49C4D71F714 /* PBXContainerItemProxy */ = {
+		A49E2ACCB9B88C047C5A8EA7947ABC65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70FDB748FB837B66237968412D605C4E;
+			remoteGlobalIDString = B5A47D0D407813AB3F75E240F47280DD;
 			remoteInfo = "TGSDK-TGSDK";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02449592C9FFE0873D0A3D5367CB868B /* AppTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTracker.framework; path = TGSDK/frameworks/AppTracker.framework; sourceTree = "<group>"; };
-		02E905D37F0E03C5F11C1CA0B7BC995D /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
-		048D324FC43488E3C8C9B4D02379AB6C /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = TGSDK/frameworks/VungleSDK.framework; sourceTree = "<group>"; };
-		04ECE311064264DCE017D34907F62613 /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
-		0D2ECF69D1E6FFCF60F5531E8F7C8B0C /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDK.framework; path = TGSDK/frameworks/MVSDK.framework; sourceTree = "<group>"; };
-		0DD53D5174FF148AEDAEE202B351864F /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppLovinSDK.framework; path = TGSDK/frameworks/AppLovinSDK.framework; sourceTree = "<group>"; };
+		024C10E672F49B5AA8CAAC8B5F13C516 /* DianjoyVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DianjoyVideo.framework; path = TGSDK/frameworks/DianjoyVideo.framework; sourceTree = "<group>"; };
+		02E905D37F0E03C5F11C1CA0B7BC995D /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_mute_off.png; sourceTree = "<group>"; };
+		04ECE311064264DCE017D34907F62613 /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; path = __vungle.db; sourceTree = "<group>"; };
 		0F5A687FAEFA1179A8CA3F0C9D71D963 /* Pods-TGSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TGSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		12586D55C7C4F3E3693964C2F2F267FC /* libTGSDK.1.4.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTGSDK.1.4.1.a; path = TGSDK/libTGSDK.1.4.1.a; sourceTree = "<group>"; };
 		1459E0EBA40A721D2E048100DBBC0566 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19E62409162CAEE519A64A5CCF161051 /* Pods-TGSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		262517C33B5CD045F14D78515B4DD0F5 /* UnityAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
 		31FC161B679C59E82145DA0A1A1EA726 /* Pods-TGSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		3639BB35511FC1F47373B2C982E8AC50 /* Pods-TGSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TGSDK_Example.modulemap"; sourceTree = "<group>"; };
-		3DA0593A8186B791D994BCC733E88BDF /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		3639BB35511FC1F47373B2C982E8AC50 /* Pods-TGSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TGSDK_Example.modulemap"; sourceTree = "<group>"; };
+		36D6E945C4BAB679C6756C9D0D8DF057 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = TGSDK/frameworks/Chartboost.framework; sourceTree = "<group>"; };
+		3DA0593A8186B791D994BCC733E88BDF /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_mute_on.png; sourceTree = "<group>"; };
 		3F7FF446737C6DDCFFB53D2BEE7F87C3 /* Pods-TGSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TGSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		448957F729B3998901AA50BC5EACFD62 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = TGSDK/frameworks/FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		45AF422FCD3B066525B2FD956035CEFF /* ChanceAdRes.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ChanceAdRes.bundle; sourceTree = "<group>"; };
+		470235494D2278651E4047449236F5E0 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppLovinSDK.framework; path = TGSDK/frameworks/AppLovinSDK.framework; sourceTree = "<group>"; };
 		4D07FBC5FC736CBC79597B10F77A8AD0 /* Pods-TGSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		57F8052F5A8AEB850627BD261195672E /* DomobVideoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DomobVideoSDK.framework; path = TGSDK/frameworks/DomobVideoSDK.framework; sourceTree = "<group>"; };
+		539C4AF9A06B2B25B820BF0A2E831013 /* NativeXSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NativeXSDK.framework; path = TGSDK/frameworks/NativeXSDK.framework; sourceTree = "<group>"; };
+		55B005A05A9F957FA7603039A79670E6 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = TGSDK/frameworks/FMDB.framework; sourceTree = "<group>"; };
 		58D430E6919ABDDA4ACB390A3A25C08B /* Pods-TGSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5BCDE85815B6D4A279A831FA2A80E4EB /* Pods-TGSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TGSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		5E2D01E07419BD7CF27B0A8353B4A90D /* Pods_TGSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6629DA96425363C17A5F21DB332FDCC6 /* NativeXSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NativeXSDK.framework; path = TGSDK/frameworks/NativeXSDK.framework; sourceTree = "<group>"; };
+		5E2D01E07419BD7CF27B0A8353B4A90D /* Pods_TGSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TGSDK_Tests.framework; path = "Pods-TGSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FF35E0E1B8B4B41C0F6F34E21C44A0 /* Pods-TGSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TGSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71925D7153821E620B19B9E64281EB84 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = TGSDK/frameworks/FMDB.framework; sourceTree = "<group>"; };
-		7295CA0562F26F0CD8B6EDC9B58F7C48 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = TGSDK/frameworks/UnityAds.framework; sourceTree = "<group>"; };
+		6E408DA16481E8AA902777A4418F8589 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = TGSDK/frameworks/VungleSDK.framework; sourceTree = "<group>"; };
 		751033CE27FF8454A705A772EC222BB4 /* TGSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TGSDK.h; sourceTree = "<group>"; };
 		77BC72F8455B4A4A6E6154C952104C7C /* Pods-TGSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C589428BFDE535EADE79CFAD96BB422 /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDK.framework; path = TGSDK/frameworks/MVSDK.framework; sourceTree = "<group>"; };
 		800491A8265A65E201D32E6EC6048559 /* ResourceBundle-TGSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TGSDK-Info.plist"; sourceTree = "<group>"; };
-		833CC820553EDDC1756EE88F354567B6 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = TGSDK/frameworks/AdColony.framework; sourceTree = "<group>"; };
+		8553EFAF17B15B6BFFEFE41E89816EC6 /* AppTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTracker.framework; path = TGSDK/frameworks/AppTracker.framework; sourceTree = "<group>"; };
 		892BE534F00A6505251A0F69976E2353 /* Pods-TGSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A2AA99096B458D6EBECD606585DBF37 /* vg_privacy.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
-		8A3694DF019BB2BC89248E7302DDC4BB /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A2AA99096B458D6EBECD606585DBF37 /* vg_privacy.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_privacy.png; sourceTree = "<group>"; };
+		8A3694DF019BB2BC89248E7302DDC4BB /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_cta.png; sourceTree = "<group>"; };
+		8BBCC1642172E4772253EE1520BF146D /* DomobVideoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DomobVideoSDK.framework; path = TGSDK/frameworks/DomobVideoSDK.framework; sourceTree = "<group>"; };
+		91BC0F8FB8E3B1F65E598CDD7AFDABE6 /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDKReward.framework; path = TGSDK/frameworks/MVSDKReward.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9803AF9EE488C76D9EDD20CE90376FFA /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = TGSDK/frameworks/UnityAds.framework; sourceTree = "<group>"; };
 		9EC035B993184D1C9DD549C105347F0D /* Pods-TGSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9F69933A2A83C5FEC022BA4D5E935CA1 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
-		A5C8D5FC42E62F530686D12F09DAB6A9 /* DianjoyVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DianjoyVideo.framework; path = TGSDK/frameworks/DianjoyVideo.framework; sourceTree = "<group>"; };
+		9F69933A2A83C5FEC022BA4D5E935CA1 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_close.png; sourceTree = "<group>"; };
 		A8307341669505B6C87C386118E933AB /* Pods-TGSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TGSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A96DBB7DFA8D011FE9ADBA1CFCD75723 /* ChanceAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChanceAdSDK.framework; path = TGSDK/frameworks/ChanceAdSDK.framework; sourceTree = "<group>"; };
-		AB4CC96CDF2AFF98C57B5FFC78BA003E /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = TGSDK/frameworks/Chartboost.framework; sourceTree = "<group>"; };
 		B9BBA96402B5CE8BB074188184448BA5 /* Pods-TGSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BBD6E89B4072B02165AF738EC254E31D /* ChanceAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChanceAdSDK.framework; path = TGSDK/frameworks/ChanceAdSDK.framework; sourceTree = "<group>"; };
 		C1D6AB7C2AEB49A2A45AD7AD7B2868E7 /* Pods-TGSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TGSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		C2EDB156507F04627C7CFBF440F729F6 /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDKReward.framework; path = TGSDK/frameworks/MVSDKReward.framework; sourceTree = "<group>"; };
 		C7BDC7D8856484964B097F6691AC6DCD /* IndependentVideoBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = IndependentVideoBundle.bundle; sourceTree = "<group>"; };
 		CA3A22934C7A3A45F2C5424AF6BB50AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E3D7A8929CBCDC38441F40FA5F53CD19 /* TGSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9DA615104235061C6D0C21462D67D6F /* Pods-TGSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TGSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		EC22B930BEC4F316A96B052FD7CD346D /* Pods_TGSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0B513EE044CEB97C7D9DA7C59BDBAC2 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = TGSDK/frameworks/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		DD47D15385F9359773003EB149A6B7D1 /* libTGSDK.1.4.3.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTGSDK.1.4.3.a; path = TGSDK/libTGSDK.1.4.3.a; sourceTree = "<group>"; };
+		E3D7A8929CBCDC38441F40FA5F53CD19 /* TGSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TGSDK.bundle; path = TGSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DA615104235061C6D0C21462D67D6F /* Pods-TGSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TGSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		EC22B930BEC4F316A96B052FD7CD346D /* Pods_TGSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TGSDK_Example.framework; path = "Pods-TGSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD6A310A81403FB916999F3433CE246 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = TGSDK/frameworks/AdColony.framework; sourceTree = "<group>"; };
 		EEA31B9B05DB1FC82A9E9E06A4037D95 /* Pods-TGSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		FC23569DBF8EDBFEBB6432D61FB8050A /* Pods-TGSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21A0FD531A27FE118F1FC1D121A63D22 /* Frameworks */ = {
+		1D0E67ACE9F3D4B0DAD7BECCBD722903 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B524A76192C25DE52F495EF10D1923 /* Frameworks */ = {
+		7498DD7DD97A73E18A55C75F15D2234D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CA1CCB149D3847EC3172879A0E5134 /* Foundation.framework in Frameworks */,
+				C81925BB6170187BD7A12C199B463337 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0739A1A87FC891771795C52905828B3 /* Frameworks */ = {
+		D605454A45C64CC2F764F4A34134E827 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289DF91592983859D645EC0D94B68C85 /* Foundation.framework in Frameworks */,
+				FA25BF15A333C8AAC07C09C54ED79A4C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,42 +125,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1911898F6AF4CB10C750570B56E28965 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				833CC820553EDDC1756EE88F354567B6 /* AdColony.framework */,
-				0DD53D5174FF148AEDAEE202B351864F /* AppLovinSDK.framework */,
-				02449592C9FFE0873D0A3D5367CB868B /* AppTracker.framework */,
-				A96DBB7DFA8D011FE9ADBA1CFCD75723 /* ChanceAdSDK.framework */,
-				AB4CC96CDF2AFF98C57B5FFC78BA003E /* Chartboost.framework */,
-				A5C8D5FC42E62F530686D12F09DAB6A9 /* DianjoyVideo.framework */,
-				57F8052F5A8AEB850627BD261195672E /* DomobVideoSDK.framework */,
-				448957F729B3998901AA50BC5EACFD62 /* FBAudienceNetwork.framework */,
-				71925D7153821E620B19B9E64281EB84 /* FMDB.framework */,
-				12586D55C7C4F3E3693964C2F2F267FC /* libTGSDK.1.4.1.a */,
-				0D2ECF69D1E6FFCF60F5531E8F7C8B0C /* MVSDK.framework */,
-				C2EDB156507F04627C7CFBF440F729F6 /* MVSDKReward.framework */,
-				6629DA96425363C17A5F21DB332FDCC6 /* NativeXSDK.framework */,
-				7295CA0562F26F0CD8B6EDC9B58F7C48 /* UnityAds.framework */,
-				048D324FC43488E3C8C9B4D02379AB6C /* VungleSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2B3CAFCD0688751C646BB93ED9B71144 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				9CDD91579643880AA001A97C822009D5 /* TGSDK */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4657BF1FBC5EABDBA6E6D7B25F199424 /* Pods-TGSDK_Example */ = {
@@ -189,11 +159,42 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		5A0270E3CE231B58AD5178EDCC3B50B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6A310A81403FB916999F3433CE246 /* AdColony.framework */,
+				470235494D2278651E4047449236F5E0 /* AppLovinSDK.framework */,
+				8553EFAF17B15B6BFFEFE41E89816EC6 /* AppTracker.framework */,
+				BBD6E89B4072B02165AF738EC254E31D /* ChanceAdSDK.framework */,
+				36D6E945C4BAB679C6756C9D0D8DF057 /* Chartboost.framework */,
+				024C10E672F49B5AA8CAAC8B5F13C516 /* DianjoyVideo.framework */,
+				8BBCC1642172E4772253EE1520BF146D /* DomobVideoSDK.framework */,
+				D0B513EE044CEB97C7D9DA7C59BDBAC2 /* FBAudienceNetwork.framework */,
+				55B005A05A9F957FA7603039A79670E6 /* FMDB.framework */,
+				DD47D15385F9359773003EB149A6B7D1 /* libTGSDK.1.4.3.a */,
+				7C589428BFDE535EADE79CFAD96BB422 /* MVSDK.framework */,
+				91BC0F8FB8E3B1F65E598CDD7AFDABE6 /* MVSDKReward.framework */,
+				539C4AF9A06B2B25B820BF0A2E831013 /* NativeXSDK.framework */,
+				9803AF9EE488C76D9EDD20CE90376FFA /* UnityAds.framework */,
+				6E408DA16481E8AA902777A4418F8589 /* VungleSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7717D45EA3AB79D5DC389F45A177B86B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				D2E14892DEC1AE43BCB66D44DD0E37BB /* include */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -222,13 +223,14 @@
 			children = (
 				F55696500F1C44E77CD1EA8D46FB2B60 /* Assets */,
 			);
+			name = TGSDK;
 			path = TGSDK;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,7 +238,7 @@
 		BD69735753FAFD8295CC8D4766453C58 /* TGSDK */ = {
 			isa = PBXGroup;
 			children = (
-				1911898F6AF4CB10C750570B56E28965 /* Frameworks */,
+				5A0270E3CE231B58AD5178EDCC3B50B0 /* Frameworks */,
 				2B3CAFCD0688751C646BB93ED9B71144 /* Resources */,
 				7CE330413F674037F3323193C775DAFF /* Support Files */,
 				CB22048ABA88701F4F9D88B2E8FC1FDA /* TGSDK */,
@@ -250,6 +252,7 @@
 			children = (
 				7717D45EA3AB79D5DC389F45A177B86B /* Classes */,
 			);
+			name = TGSDK;
 			path = TGSDK;
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 			children = (
 				F0F1A18265C2C874546CAE32E9831EB3 /* TGSDK */,
 			);
+			name = include;
 			path = include;
 			sourceTree = "<group>";
 		};
@@ -284,6 +288,7 @@
 			children = (
 				751033CE27FF8454A705A772EC222BB4 /* TGSDK.h */,
 			);
+			name = TGSDK;
 			path = TGSDK;
 			sourceTree = "<group>";
 		};
@@ -300,6 +305,7 @@
 				3DA0593A8186B791D994BCC733E88BDF /* vg_mute_on.png */,
 				8A2AA99096B458D6EBECD606585DBF37 /* vg_privacy.png */,
 			);
+			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -315,49 +321,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		375F568C60A835A7D95A64C828EF2D42 /* Headers */ = {
+		054A9A89900B0E16DEEB588F59EC1FC7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B234A0828F1D2324CDC48C47894FEC /* Pods-TGSDK_Example-umbrella.h in Headers */,
+				C5BEE81A5B25AE2AEDBDCB25AE5BF213 /* Pods-TGSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CE91C469B24D44E3DBCAE6F4FB1F08F /* Headers */ = {
+		469FF5781762370052EB45B14E2628EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93E63CD6152E5FDE8638573876BED38 /* Pods-TGSDK_Tests-umbrella.h in Headers */,
+				4D91D3921B2C50C2FD182B0D5265D2AE /* Pods-TGSDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18C5760223D942BA6D7D7B551E2F05C8 /* Pods-TGSDK_Tests */ = {
+		B5A47D0D407813AB3F75E240F47280DD /* TGSDK-TGSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EF18E321697C09A43250FB2F4ADE9FD /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Tests" */;
+			buildConfigurationList = 9F6241C5A71C596B9C6CD215F543DAB8 /* Build configuration list for PBXNativeTarget "TGSDK-TGSDK" */;
 			buildPhases = (
-				3377B8AB811C63A029662B67D14643F0 /* Sources */,
-				F0739A1A87FC891771795C52905828B3 /* Frameworks */,
-				5CE91C469B24D44E3DBCAE6F4FB1F08F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TGSDK_Tests";
-			productName = "Pods-TGSDK_Tests";
-			productReference = 5E2D01E07419BD7CF27B0A8353B4A90D /* Pods_TGSDK_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		70FDB748FB837B66237968412D605C4E /* TGSDK-TGSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AEB7826E8A6FE42627BF668EB6D560F8 /* Build configuration list for PBXNativeTarget "TGSDK-TGSDK" */;
-			buildPhases = (
-				0B7BF127A2632E0766DB09DAD8B731C3 /* Sources */,
-				21A0FD531A27FE118F1FC1D121A63D22 /* Frameworks */,
-				8B7D8525437E8B5A6B4014FF17938641 /* Resources */,
+				3D47A94C1B87547D10296CC47781066E /* Sources */,
+				1D0E67ACE9F3D4B0DAD7BECCBD722903 /* Frameworks */,
+				C6167AB512BDF4392223D2E2CF876445 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -368,18 +357,35 @@
 			productReference = E3D7A8929CBCDC38441F40FA5F53CD19 /* TGSDK.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		76FB1EC21CBBEC64E492FA9D7C69D912 /* Pods-TGSDK_Example */ = {
+		B88B15D10D92F917953DCE7D92EDDBC9 /* Pods-TGSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97C98296C7D74E6E6D73A6CF39309E75 /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Example" */;
+			buildConfigurationList = 51DDCCAC7FB7AD6807DFB12A4E90623B /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Tests" */;
 			buildPhases = (
-				4CCBB9E60FFA2659B0ABBFC45A17B43F /* Sources */,
-				A5B524A76192C25DE52F495EF10D1923 /* Frameworks */,
-				375F568C60A835A7D95A64C828EF2D42 /* Headers */,
+				61977E30D535F06656025993CEEC9DAC /* Sources */,
+				7498DD7DD97A73E18A55C75F15D2234D /* Frameworks */,
+				469FF5781762370052EB45B14E2628EB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B6C365D1229C07BC4193C5B956EB7DA /* PBXTargetDependency */,
+			);
+			name = "Pods-TGSDK_Tests";
+			productName = "Pods-TGSDK_Tests";
+			productReference = 5E2D01E07419BD7CF27B0A8353B4A90D /* Pods_TGSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5489A81CA6340CC5CB81636D107435F /* Pods-TGSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E2C9C8A75390D62267C926D86DE5B0 /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Example" */;
+			buildPhases = (
+				C40644BF924D12E24DFEDFBCEFC9B564 /* Sources */,
+				D605454A45C64CC2F764F4A34134E827 /* Frameworks */,
+				054A9A89900B0E16DEEB588F59EC1FC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DB05211F4725DCE4A6B0B5870D3CEA /* PBXTargetDependency */,
 			);
 			name = "Pods-TGSDK_Example";
 			productName = "Pods-TGSDK_Example";
@@ -407,85 +413,69 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76FB1EC21CBBEC64E492FA9D7C69D912 /* Pods-TGSDK_Example */,
-				18C5760223D942BA6D7D7B551E2F05C8 /* Pods-TGSDK_Tests */,
-				70FDB748FB837B66237968412D605C4E /* TGSDK-TGSDK */,
+				C5489A81CA6340CC5CB81636D107435F /* Pods-TGSDK_Example */,
+				B88B15D10D92F917953DCE7D92EDDBC9 /* Pods-TGSDK_Tests */,
+				B5A47D0D407813AB3F75E240F47280DD /* TGSDK-TGSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B7D8525437E8B5A6B4014FF17938641 /* Resources */ = {
+		C6167AB512BDF4392223D2E2CF876445 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFB50BE4F9074C6BBFAE2E945ADF0B8 /* __vungle.db in Resources */,
-				9E15B91F0B5522E9146EC73F147A8D75 /* ChanceAdRes.bundle in Resources */,
-				630E2F6A8A8C3A13BFC46E1BBBA8DA36 /* IndependentVideoBundle.bundle in Resources */,
-				A214F59BC436215903679A103C89390B /* UnityAds.bundle in Resources */,
-				536A2A69E7BB3FD86F7C16A61C6F995B /* vg_close.png in Resources */,
-				0293F70DF6E7985D25E5EDC280926054 /* vg_cta.png in Resources */,
-				06942CA5766ED20F3C9CC1F8D9C831D3 /* vg_mute_off.png in Resources */,
-				96168AF455B3F3EF2D7A0F2D1BFEDAEA /* vg_mute_on.png in Resources */,
-				1315276DB341BF4B6287BF3AEB366AF2 /* vg_privacy.png in Resources */,
+				D61F67ADC5D411EB2E371F902FB1F7AA /* __vungle.db in Resources */,
+				E8CFC3A40041E59FC8D0722BB8ACDA61 /* ChanceAdRes.bundle in Resources */,
+				1B19C0CD9E3FDFE857F0D1ED4D2FF67F /* IndependentVideoBundle.bundle in Resources */,
+				7DBAC8F0F2BCC4DF1A4E25181B1639C4 /* UnityAds.bundle in Resources */,
+				969B4F203597028BB16FCC226F7E6925 /* vg_close.png in Resources */,
+				C0A6B781F0D63B02ACC3FA8D9D12A172 /* vg_cta.png in Resources */,
+				337AF24F6241AEE398299462B2C48BF1 /* vg_mute_off.png in Resources */,
+				567794FFC8EB8B525695937F6C64FD62 /* vg_mute_on.png in Resources */,
+				D56F470B62CC1650029AACFACF22B64F /* vg_privacy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B7BF127A2632E0766DB09DAD8B731C3 /* Sources */ = {
+		3D47A94C1B87547D10296CC47781066E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3377B8AB811C63A029662B67D14643F0 /* Sources */ = {
+		61977E30D535F06656025993CEEC9DAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C3F328DB7D7967B920EFE39CC69F97 /* Pods-TGSDK_Tests-dummy.m in Sources */,
+				59E190E956A9DD3123DFFF1F861C26E0 /* Pods-TGSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CCBB9E60FFA2659B0ABBFC45A17B43F /* Sources */ = {
+		C40644BF924D12E24DFEDFBCEFC9B564 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E730B1E5E6D5493F06B125E07777A7F /* Pods-TGSDK_Example-dummy.m in Sources */,
+				6A5C51203FEAFF49580EC31711AC0F42 /* Pods-TGSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B6C365D1229C07BC4193C5B956EB7DA /* PBXTargetDependency */ = {
+		40DB05211F4725DCE4A6B0B5870D3CEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TGSDK-TGSDK";
-			target = 70FDB748FB837B66237968412D605C4E /* TGSDK-TGSDK */;
-			targetProxy = 054BD4236CB83C74E6E6A49C4D71F714 /* PBXContainerItemProxy */;
+			target = B5A47D0D407813AB3F75E240F47280DD /* TGSDK-TGSDK */;
+			targetProxy = A49E2ACCB9B88C047C5A8EA7947ABC65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		189F11D5DBB418442BE7D759836460BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TGSDK";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/TGSDK/ResourceBundle-TGSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TGSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		86469E0BE3E381B99AB1A0B30D0B0116 /* Debug */ = {
+		07D5529AAA9EC7849CEE3E992F75930E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TGSDK";
@@ -501,15 +491,15 @@
 			};
 			name = Debug;
 		};
-		88BCAB8AAEE035D0F9B0BFECAE2CAFF9 /* Release */ = {
+		54694F315F6D91DD8030888AB2046845 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19E62409162CAEE519A64A5CCF161051 /* Pods-TGSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 77BC72F8455B4A4A6E6154C952104C7C /* Pods-TGSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -522,7 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Example/Pods-TGSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -533,6 +523,57 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6483BB4689FC6C135A868B8BD6362EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892BE534F00A6505251A0F69976E2353 /* Pods-TGSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TGSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		727B635C18C539266606AB14298915CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TGSDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TGSDK/ResourceBundle-TGSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TGSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -573,6 +614,41 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93FC3BF594C27B315AB934C646D79E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BBA96402B5CE8BB074188184448BA5 /* Pods-TGSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TGSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -620,9 +696,9 @@
 			};
 			name = Debug;
 		};
-		A2E23E235149BD17453C97118D19845E /* Release */ = {
+		E60BB4B21C63F9EA86BFFE62E3E79BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9BBA96402B5CE8BB074188184448BA5 /* Pods-TGSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 19E62409162CAEE519A64A5CCF161051 /* Pods-TGSDK_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -635,48 +711,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TGSDK_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CACC091CF1C09483D98859912F2EDA7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77BC72F8455B4A4A6E6154C952104C7C /* Pods-TGSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Example/Pods-TGSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -688,42 +729,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		D1CDECE5BBB2BF6D84D445DD304753ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892BE534F00A6505251A0F69976E2353 /* Pods-TGSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TGSDK_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -737,29 +743,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97C98296C7D74E6E6D73A6CF39309E75 /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Example" */ = {
+		51DDCCAC7FB7AD6807DFB12A4E90623B /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CACC091CF1C09483D98859912F2EDA7C /* Debug */,
-				88BCAB8AAEE035D0F9B0BFECAE2CAFF9 /* Release */,
+				6483BB4689FC6C135A868B8BD6362EEF /* Debug */,
+				93FC3BF594C27B315AB934C646D79E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EF18E321697C09A43250FB2F4ADE9FD /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Tests" */ = {
+		73E2C9C8A75390D62267C926D86DE5B0 /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1CDECE5BBB2BF6D84D445DD304753ED /* Debug */,
-				A2E23E235149BD17453C97118D19845E /* Release */,
+				54694F315F6D91DD8030888AB2046845 /* Debug */,
+				E60BB4B21C63F9EA86BFFE62E3E79BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEB7826E8A6FE42627BF668EB6D560F8 /* Build configuration list for PBXNativeTarget "TGSDK-TGSDK" */ = {
+		9F6241C5A71C596B9C6CD215F543DAB8 /* Build configuration list for PBXNativeTarget "TGSDK-TGSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86469E0BE3E381B99AB1A0B30D0B0116 /* Debug */,
-				189F11D5DBB418442BE7D759836460BD /* Release */,
+				07D5529AAA9EC7849CEE3E992F75930E /* Debug */,
+				727B635C18C539266606AB14298915CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

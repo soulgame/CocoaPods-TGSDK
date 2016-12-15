@@ -1,11 +1,10 @@
-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TGSDK/frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TGSDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TGSDK"
 OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TGSDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"TGSDK.1.4.1" -l"c++" -l"sqlite3" -l"xml2" -l"z" -framework "AVFoundation" -framework "AdColony" -framework "AppLovinSDK" -framework "AppTracker" -framework "AudioToolbox" -framework "ChanceAdSDK" -framework "Chartboost" -framework "CoreGraphics" -framework "CoreTelephony" -framework "DianjoyVideo" -framework "DomobVideoSDK" -framework "EventKit" -framework "FBAudienceNetwork" -framework "FMDB" -framework "MVSDK" -framework "MVSDKReward" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "NativeXSDK" -framework "QuartzCore" -framework "Social" -framework "StoreKit" -framework "SystemConfiguration" -framework "UnityAds" -framework "VungleSDK" -framework "WebKit" -framework "iAd"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"TGSDK.1.4.3" -l"sqlite3" -l"stdc++" -l"xml2" -l"z" -framework "AVFoundation" -framework "AdColony" -framework "AppLovinSDK" -framework "AppTracker" -framework "AudioToolbox" -framework "ChanceAdSDK" -framework "Chartboost" -framework "CoreGraphics" -framework "CoreTelephony" -framework "DianjoyVideo" -framework "DomobVideoSDK" -framework "EventKit" -framework "FBAudienceNetwork" -framework "FMDB" -framework "MVSDK" -framework "MVSDKReward" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "NativeXSDK" -framework "QuartzCore" -framework "Social" -framework "StoreKit" -framework "SystemConfiguration" -framework "UnityAds" -framework "VungleSDK" -framework "WebKit" -framework "iAd"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods
