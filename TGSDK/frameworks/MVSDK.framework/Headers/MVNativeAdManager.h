@@ -51,8 +51,9 @@ typedef NS_ENUM(NSInteger, MVAdCategory) {
  @abstract When the MVNativeAdManager has finished loading a batch of frames this message will be sent. A batch of frames may be loaded in response to calling loadAds.
  @param nativeFrames A array contains native frames (MVFrame).
  
+ @deprecated This method has been deprecated.
  */
-- (void)nativeFramesLoaded:(nullable NSArray *)nativeFrames;
+- (void)nativeFramesLoaded:(nullable NSArray *)nativeFrames DEPRECATED_ATTRIBUTE;
 
 /*!
  @method
@@ -60,8 +61,9 @@ typedef NS_ENUM(NSInteger, MVAdCategory) {
  @abstract When the MVNativeAdManager has reached a failure while attempting to load a batch of frames this message will be sent to the application.
  @param error An NSError object with information about the failure.
  
+ @deprecated This method has been deprecated.
  */
-- (void)nativeFramesFailedToLoadWithError:(nonnull NSError *)error;
+- (void)nativeFramesFailedToLoadWithError:(nonnull NSError *)error DEPRECATED_ATTRIBUTE;
 
 /*!
  @method
@@ -185,6 +187,8 @@ typedef NS_ENUM(NSInteger, MVAdCategory) {
  (iTunes Store product information) or the in-app browser. If not set, it will be the root viewController of your current UIWindow. But it may failed to present our view controller if your rootViewController is presenting other view controller. So set this property is necessary.
  
  @discussion It's different with the method initWithUnitID:fbPlacementId:forNumAdsRequested:presentingViewController: We will return arrays of MVFrame rather than MVCampaign to you. A MVFrame may contain multiple MVCampaigns. See more detail in MVFrame.
+ 
+ @deprecated This method has been deprecated.
  */
 - (nonnull instancetype)initWithUnitID:(nonnull NSString *)unitId
                          fbPlacementId:(nullable NSString *)fbPlacementId
@@ -192,7 +196,7 @@ typedef NS_ENUM(NSInteger, MVAdCategory) {
                     supportedTemplates:(nullable NSArray *)templates
                         autoCacheImage:(BOOL)autoCacheImage
                             adCategory:(MVAdCategory)adCategory
-              presentingViewController:(nullable UIViewController *)viewController;
+              presentingViewController:(nullable UIViewController *)viewController DEPRECATED_ATTRIBUTE;
 
 
 /*!
@@ -201,8 +205,10 @@ typedef NS_ENUM(NSInteger, MVAdCategory) {
  @abstract The method that kicks off the loading of frames. It may be called again in the future to refresh the frames manually.
  
  @discussion It only works if you init the manager by the the method above.
+
+ @deprecated This method has been deprecated.
  */
-- (void)loadFrames;
+- (void)loadFrames DEPRECATED_ATTRIBUTE;
 
 /*!
  @method

@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import "MVCampaign.h"
 
+__deprecated_msg("Class is deprecated.")
+
 @interface MVFrame : NSObject
 
 /*!

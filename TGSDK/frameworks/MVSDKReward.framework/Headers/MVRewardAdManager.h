@@ -78,7 +78,18 @@
 
 #pragma mark - MVRewardAdManager
 
+
+typedef NS_ENUM(NSInteger, MVRewardShowVideoMode) {
+    MVREWARD_SHOWVIDEMODE_DOWNLOADING  = 0,
+    MVREWARD_SHOWVIDEMODE_DOWNLOADED  = 1,
+};
+
 @interface MVRewardAdManager : NSObject
+
+/**
+ * Play video mode: MVREWARD_SHOWVIDEMODE_DOWNLOADING, MVREWARD_SHOWVIDEMODE_DOWNLOADED
+ */
+@property (nonatomic, assign) MVRewardShowVideoMode showVideoMode;
 
 /**
  * The shared instance of the video.
@@ -96,7 +107,7 @@
 - (void)loadVideo:(nonnull NSString *)unitId delegate:(nullable id <MVRewardAdLoadDelegate>)delegate;
 
 /**
- *  Callen when show the video
+ *  Called when show the video
  *
  *  @param unitId         - the unitId string of the Ad that display.
  *  @param rewardId       - the reward info about NativeX or AppLovin

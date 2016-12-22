@@ -8,6 +8,8 @@
 #import <UIKit/UIKit.h>
 #import "MVFrame.h"
 
+__deprecated_msg("Delegate is deprecated.")
+
 /*!
  @protocol MVNativeScrollViewDelegate
  
@@ -28,6 +30,9 @@
 - (void)customFrameViewWithSuperView:(nonnull UIView *)superView nativeFrame:(nonnull MVFrame *)nativeFrame atIndex:(NSUInteger)index;
 
 @end
+
+__deprecated_msg("Class is deprecated.")
+
 
 @interface MVNativeScrollView : UIView
 

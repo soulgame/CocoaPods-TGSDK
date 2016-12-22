@@ -5,8 +5,8 @@
 //  Created by Jomy on 15/9/28.
 //
 
+#define MVSDKVersion @"1.5.0"
 
-#define MVSDKVersion @"1.4.5"
 
 #import <Foundation/Foundation.h>
 #import <MVSDK/MVNativeAdManager.h>
@@ -96,6 +96,11 @@
  @param unitId The id of the ad unit. You can create your unit id from our Portal.
  */
 - (void)preloadAppWallAdsWithUnitId:(nonnull NSString *)unitId;
+
+
+
+
+
 
 
 @end

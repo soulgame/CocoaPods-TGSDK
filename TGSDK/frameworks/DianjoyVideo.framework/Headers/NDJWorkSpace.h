@@ -112,6 +112,7 @@
  */
 - (void)setDownloadOnlyInWifi:(BOOL)value;
 
+
 /**
  *  设置广告位
  *
@@ -120,8 +121,8 @@
 - (void)setPlaceMentId:(NSString *)placementId;
 
 /**
- *  查询是否有视频可播放，会触发回调
- *  调用前先设置好placementid.
+ *  查询是否有视频可播放 ，会触发回调
+ *  调用前先设置placement
  */
 - (void)queryVideoAD;
 
@@ -139,6 +140,7 @@
  *  播放视频
  *  @param errorBlcok  错误回调
  *
+ *  @return YES 播放成功，NO 播放失败
  */
 - (void)showWitherror:(void (^)(NSDictionary * errorDic))errorBlcok;
 

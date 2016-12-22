@@ -90,22 +90,11 @@ typedef enum {
 
 + (void) initialize:(TGSDKServiceResultCallBack _Nullable)cb;
 
-+(void)initSDK:(NSString* _Nonnull)appID
-    publisherID:(NSString* _Nonnull)publisherID
-      channelID:(NSString* _Nonnull)channelID
-       useCurl:(BOOL)useCurl
-     plistPath:(NSString* _Nullable)plistPath
-      callBack:(TGSDKServiceResultCallBack _Nullable)cb __attribute__((deprecated));
-
-//缺省参数初始化函数
-+(void)initSDK:(TGSDKServiceResultCallBack _Nullable)cb __attribute__((deprecated));
-
-//指定 plist 文件路径的初始化函数
-+(void)initSDK:(NSString* _Nullable)plist
-      callBack:(TGSDKServiceResultCallBack _Nullable)cb __attribute__((deprecated));
-
 +(void)setSDKConfig:(NSString* _Nullable)val forKey:(NSString* _Nonnull)key;
 +(NSString* _Nullable)getSDKConfig:(NSString* _Nonnull)key;
+
+//获取sceneParams
++(NSArray *_Nullable)getSceneParams:(NSString *_Nonnull)sceneID forKey:(NSString* _Nonnull)key;
 
 //平台注册
 +(void)userPlatformRegister:(NSString* _Nonnull)userName
@@ -173,5 +162,7 @@ typedef enum {
            AndQuantity:(int)quantity
              AndAmount:(float)amount
         AndGoodsAmount:(int)goodsAmount;
+
+/**************************   错误日志上传  ******************************/
 
 @end
