@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGSDK'
-  s.version          = '1.5.0'
+  s.version          = '1.6.0'
   s.summary          = 'Yomob Ad SDK'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Yomob Ad SDK.
                        DESC
 
-  s.homepage         = 'http://yomob.com'
+  s.homepage         = 'https://yomob.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liyin' => 'liy@soulgame.com' }
   s.source           = { :git => 'https://github.com/soulgame/CocoaPods-TGSDK.git', :tag => s.version }
@@ -37,6 +37,6 @@ Yomob Ad SDK.
   s.public_header_files = 'TGSDK/Classes/include/TGSDK/TGSDK.h'
   s.library = 'stdc++', 'sqlite3', 'xml2', 'z'
   s.vendored_libraries = "TGSDK/libTGSDK.#{s.version}.a"
-  s.frameworks = 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreTelephony', 'EventKit', 'iAd', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Social', 'StoreKit', 'SystemConfiguration', 'WebKit'
-  s.vendored_frameworks = 'TGSDK/frameworks/AdColony.framework', 'TGSDK/frameworks/AppLovinSDK.framework', 'TGSDK/frameworks/ChanceAdSDK.framework', 'TGSDK/frameworks/Chartboost.framework', 'TGSDK/frameworks/FBAudienceNetwork.framework', 'TGSDK/frameworks/FMDB.framework', 'TGSDK/frameworks/UnityAds.framework', 'TGSDK/frameworks/VungleSDK.framework', 'TGSDK/frameworks/DomobVideoSDK.framework', 'TGSDK/frameworks/DianjoyVideo.framework', 'TGSDK/frameworks/AppTracker.framework', 'TGSDK/frameworks/MVSDK.framework', 'TGSDK/frameworks/MVSDKReward.framework'
+  s.frameworks = 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreTelephony', 'EventKit', 'iAd', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Social', 'StoreKit', 'SystemConfiguration', 'WebKit', 'JavaScriptCore', 'GameController'
+  s.vendored_frameworks = 'TGSDK/frameworks/AdColony.framework', 'TGSDK/frameworks/AppLovinSDK.framework', 'TGSDK/frameworks/ChanceAdSDK.framework', 'TGSDK/frameworks/Chartboost.framework', 'TGSDK/frameworks/FBAudienceNetwork.framework', 'TGSDK/frameworks/FMDB.framework', 'TGSDK/frameworks/UnityAds.framework', 'TGSDK/frameworks/VungleSDK.framework', 'TGSDK/frameworks/DomobVideoSDK.framework', 'TGSDK/frameworks/DianjoyVideo.framework', 'TGSDK/frameworks/AppTracker.framework', 'TGSDK/frameworks/MVSDK.framework', 'TGSDK/frameworks/MVSDKReward.framework', 'TGSDK/frameworks/OneWaySDK.framework', 'TGSDK/frameworks/AppnextSDK.framework', 'TGSDK/frameworks/InMobi.framework'
 end

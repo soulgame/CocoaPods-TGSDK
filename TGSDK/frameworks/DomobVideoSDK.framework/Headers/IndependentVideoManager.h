@@ -2,8 +2,8 @@
 //  IndependentVideoVideoManager.h
 //  IndependentVideoSDK
 //
-//  Created by Domob on 8/8/14.
-//  Copyright (c) 2014 domob. All rights reserved.
+//  Created by Domob on 13/1/17.
+//  Copyright (c) 2017 domob. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,16 +16,16 @@
 #pragma mark - independent video present callback 视频广告展现回调
 
 /**
- *  开始加载数据。
+ *  开始加载视频。
  *  Independent video starts to fetch info.
  *
  *  @param manager IndependentVideoManager
  */
 - (void)ivManagerDidStartLoad:(IndependentVideoManager *)manager;
 /**
- *  xxxxx加载完成,带参数回调。
- *  Fetching independent video successfully.
+ *  视频是否下载完成。
  *
+ *  isFinished YES/NO
  *  @param manager IndependentVideoManager
  */
 - (void)ivManagerDidFinishLoad:(IndependentVideoManager *)manager finished:(BOOL)isFinished;
@@ -72,17 +72,15 @@ failedLoadWithError:(NSError *)error;
 - (void)ivManagerPlayIndependentVideo:(IndependentVideoManager *)manager
                             withError:(NSError *)error;
 
-
 /**
- *  是否有视频广告可以播放。
+ *  checkVideoAvailable的回调方法,服务端是否有视频广告可以下载。
  *  Called after check independent video available.
  *
  *  @param IndependentVideoManager
- *  @param available
+ *  @param available YES/NO
  */
 - (void)ivManager:(IndependentVideoManager *)manager
 isIndependentVideoAvailable:(BOOL)available;
-
 
 @end
 
@@ -158,7 +156,7 @@ isIndependentVideoAvailable:(BOOL)available;
 
 #pragma mark - independent video status 检查视频是否可用
 /**
- *  是否有视频广告可以播放
+ *  检查服务端是否有视频广告可下载
  *  check independent video available.
  */
 - (void)checkVideoAvailable;

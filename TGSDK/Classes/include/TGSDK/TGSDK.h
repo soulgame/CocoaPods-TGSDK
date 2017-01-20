@@ -76,6 +76,10 @@ typedef enum {
 
 +(TGSDK* _Nonnull)sharedInstance;
 
++ (NSString* _Nonnull) SDKVersion;
+
++ (BOOL) checkSDKVersion:(NSString* _Nonnull)version;
+
 //初始化函数
 + (void) setDebugModel:(BOOL)debug;
 
@@ -92,9 +96,6 @@ typedef enum {
 
 +(void)setSDKConfig:(NSString* _Nullable)val forKey:(NSString* _Nonnull)key;
 +(NSString* _Nullable)getSDKConfig:(NSString* _Nonnull)key;
-
-//获取sceneParams
-+(NSArray *_Nullable)getSceneParams:(NSString *_Nonnull)sceneID forKey:(NSString* _Nonnull)key;
 
 //平台注册
 +(void)userPlatformRegister:(NSString* _Nonnull)userName
@@ -150,6 +151,8 @@ typedef enum {
 +(void)showCPView:(NSString* _Nonnull)scene;
 +(void)reportCPClick:(NSString* _Nonnull)scene;
 +(void)reportCPClose:(NSString* _Nonnull)scene;
+
++(nullable id) parameterFromAdScene:(nonnull NSString*)scene WithKey:(nonnull NSString*)key;
 
 /**************************   数据追踪  ******************************/
 + (void)sendCounter:(NSString* _Nonnull)name metaData:(NSDictionary* _Nullable)md;

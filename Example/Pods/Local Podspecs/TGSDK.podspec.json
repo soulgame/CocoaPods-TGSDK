@@ -1,9 +1,9 @@
 {
   "name": "TGSDK",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "summary": "Yomob Ad SDK",
   "description": "Yomob Ad SDK.",
-  "homepage": "http://yomob.com",
+  "homepage": "https://yomob.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/soulgame/CocoaPods-TGSDK.git",
-    "tag": "1.5.0"
+    "tag": "1.6.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -31,7 +31,7 @@
     "xml2",
     "z"
   ],
-  "vendored_libraries": "TGSDK/libTGSDK.1.5.0.a",
+  "vendored_libraries": "TGSDK/libTGSDK.1.6.0.a",
   "frameworks": [
     "AudioToolbox",
     "AVFoundation",
@@ -46,7 +46,9 @@
     "Social",
     "StoreKit",
     "SystemConfiguration",
-    "WebKit"
+    "WebKit",
+    "JavaScriptCore",
+    "GameController"
   ],
   "vendored_frameworks": [
     "TGSDK/frameworks/AdColony.framework",
@@ -61,6 +63,9 @@
     "TGSDK/frameworks/DianjoyVideo.framework",
     "TGSDK/frameworks/AppTracker.framework",
     "TGSDK/frameworks/MVSDK.framework",
-    "TGSDK/frameworks/MVSDKReward.framework"
+    "TGSDK/frameworks/MVSDKReward.framework",
+    "TGSDK/frameworks/OneWaySDK.framework",
+    "TGSDK/frameworks/AppnextSDK.framework",
+    "TGSDK/frameworks/InMobi.framework"
   ]
 }
