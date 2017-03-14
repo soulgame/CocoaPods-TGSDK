@@ -1,8 +1,9 @@
 
-#import "OWMetaData.h"
 
-@interface OWUserMetaData : OWMetaData
 
-- (void)setServerId:(NSString *)serverId;
+@interface OWUserMetaData : NSObject
+
+- (void)set:(NSString *)key value:(id)value;
+- (void)commit;
 
 @end

@@ -128,6 +128,14 @@ typedef NS_ENUM(NSInteger, MVAdCategory) {
 @property (nonatomic, weak, nullable) id <MVNativeAdManagerDelegate> delegate;
 
 /*!
+ @property
+ 
+ @discussion Show the  loading view when to click on ads.
+    The default is yes
+ */
+@property (nonatomic, assign) BOOL showLoadingView;
+
+/*!
  @method
 
  @abstract Initialize the native ads manager which is for loading ads. (MVCampaign)

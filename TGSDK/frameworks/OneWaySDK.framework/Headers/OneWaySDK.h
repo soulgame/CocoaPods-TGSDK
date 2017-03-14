@@ -1,6 +1,5 @@
 #import <UIKit/UIKit.h>
 
-#import "OWMediationMetaData.h"
 #import "OWUserMetaData.h"
 
 /**

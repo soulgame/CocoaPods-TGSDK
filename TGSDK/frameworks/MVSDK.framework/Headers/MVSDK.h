@@ -5,10 +5,11 @@
 //  Created by Jomy on 15/9/28.
 //
 
-#define MVSDKVersion @"1.5.2"
+#define MVSDKVersion @"1.6.1"
 
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <MVSDK/MVNativeAdManager.h>
 #import <MVSDK/MVCampaign.h>
 #import <MVSDK/MVTemplate.h>
@@ -85,7 +86,7 @@
               supportedFrameTemplates:(nullable NSArray *)templates
                        autoCacheImage:(BOOL)autoCacheImage
                            adCategory:(MVAdCategory)adCategory
-                             frameNum:(NSUInteger)frameNum;
+                             frameNum:(NSUInteger)frameNum DEPRECATED_ATTRIBUTE;
 
 /**
  *

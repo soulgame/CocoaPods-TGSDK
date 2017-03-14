@@ -1,6 +1,6 @@
 {
   "name": "TGSDK",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "summary": "Yomob Ad SDK",
   "description": "Yomob Ad SDK.",
   "homepage": "https://yomob.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/soulgame/CocoaPods-TGSDK.git",
-    "tag": "1.6.0"
+    "tag": "1.6.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -31,7 +31,7 @@
     "xml2",
     "z"
   ],
-  "vendored_libraries": "TGSDK/libTGSDK.1.6.0.a",
+  "vendored_libraries": "TGSDK/libTGSDK.1.6.1.a",
   "frameworks": [
     "AudioToolbox",
     "AVFoundation",
@@ -55,7 +55,6 @@
     "TGSDK/frameworks/AppLovinSDK.framework",
     "TGSDK/frameworks/ChanceAdSDK.framework",
     "TGSDK/frameworks/Chartboost.framework",
-    "TGSDK/frameworks/FBAudienceNetwork.framework",
     "TGSDK/frameworks/FMDB.framework",
     "TGSDK/frameworks/UnityAds.framework",
     "TGSDK/frameworks/VungleSDK.framework",
@@ -63,6 +62,7 @@
     "TGSDK/frameworks/DianjoyVideo.framework",
     "TGSDK/frameworks/AppTracker.framework",
     "TGSDK/frameworks/MVSDK.framework",
+    "TGSDK/frameworks/MVSDKInterstitial.framework",
     "TGSDK/frameworks/MVSDKReward.framework",
     "TGSDK/frameworks/OneWaySDK.framework",
     "TGSDK/frameworks/AppnextSDK.framework",
