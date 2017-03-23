@@ -32,6 +32,8 @@ typedef NS_ENUM(unsigned int, CSVideoStatus) {
 @property (nonatomic, assign) BOOL hideCoinLabel;
 // 服务器对接时，积分回调时转发的信息。长度限制80（不建议使用中文符号）
 @property (nonatomic, copy) NSString *userInfo;
+// 落地页下载点击后，是否关闭广告
+@property (nonatomic, assign) BOOL hideVideoAd;
 
 @property (nonatomic, weak) id <CSVideoADDelegate> delegate;
 
