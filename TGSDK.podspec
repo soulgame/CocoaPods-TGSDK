@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGSDK'
-  s.version          = '1.6.2'
+  s.version          = '1.6.3'
   s.summary          = 'Yomob Ad SDK'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,7 @@ Yomob Ad SDK.
 
   s.source_files = 'TGSDK/Classes/**/*'
   
-  s.resource_bundles = {
-     'TGSDK' => ['TGSDK/Assets/*']
-  }
+  s.resources = ['TGSDK/Assets/*']
 
   s.public_header_files = 'TGSDK/Classes/include/TGSDK/TGSDK.h'
   s.library = 'stdc++', 'sqlite3', 'xml2', 'z'

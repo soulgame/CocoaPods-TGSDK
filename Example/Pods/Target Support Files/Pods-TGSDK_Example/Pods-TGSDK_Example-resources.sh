@@ -74,10 +74,26 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/TGSDK/TGSDK.bundle"
+  install_resource "../../TGSDK/Assets/vg_close.png"
+  install_resource "../../TGSDK/Assets/vg_cta.png"
+  install_resource "../../TGSDK/Assets/vg_mute_off.png"
+  install_resource "../../TGSDK/Assets/vg_mute_on.png"
+  install_resource "../../TGSDK/Assets/vg_privacy.png"
+  install_resource "../../TGSDK/Assets/__vungle.db"
+  install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
+  install_resource "../../TGSDK/Assets/IndependentVideoBundle.bundle"
+  install_resource "../../TGSDK/Assets/UnityAds.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/TGSDK/TGSDK.bundle"
+  install_resource "../../TGSDK/Assets/vg_close.png"
+  install_resource "../../TGSDK/Assets/vg_cta.png"
+  install_resource "../../TGSDK/Assets/vg_mute_off.png"
+  install_resource "../../TGSDK/Assets/vg_mute_on.png"
+  install_resource "../../TGSDK/Assets/vg_privacy.png"
+  install_resource "../../TGSDK/Assets/__vungle.db"
+  install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
+  install_resource "../../TGSDK/Assets/IndependentVideoBundle.bundle"
+  install_resource "../../TGSDK/Assets/UnityAds.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
