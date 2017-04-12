@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGSDK'
-  s.version          = '1.6.3'
+  s.version          = '1.6.4'
   s.summary          = 'Yomob Ad SDK'
 
 # This description is used to generate tags and improve search results.
