@@ -162,6 +162,13 @@
         [self showAlert:@"showAd" message:@"[TGSDK couldShowAd return false"];
     }
 }
+- (IBAction)onShowTestView:(id)sender {
+    NSString *sceneid = [[self sceneSpinner] textField].text;
+    if (!sceneid || [sceneid length] == 0) {
+        sceneid = [[self textInput] text];
+    }
+    [TGSDK showTestView:sceneid];
+}
 
 - (void)showAlert:(NSString*)title message:(NSString*)message {
     [self showLog:title message:message];

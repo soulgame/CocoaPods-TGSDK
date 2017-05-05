@@ -74,6 +74,8 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "../../TGSDK/Assets/TGStartedIcon.png"
+  install_resource "../../TGSDK/Assets/TGUnstartedIcon.png"
   install_resource "../../TGSDK/Assets/vg_close.png"
   install_resource "../../TGSDK/Assets/vg_cta.png"
   install_resource "../../TGSDK/Assets/vg_mute_off.png"
@@ -82,9 +84,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "../../TGSDK/Assets/__vungle.db"
   install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
   install_resource "../../TGSDK/Assets/IndependentVideoBundle.bundle"
+  install_resource "../../TGSDK/Assets/TapjoyResources.bundle"
   install_resource "../../TGSDK/Assets/UnityAds.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "../../TGSDK/Assets/TGStartedIcon.png"
+  install_resource "../../TGSDK/Assets/TGUnstartedIcon.png"
   install_resource "../../TGSDK/Assets/vg_close.png"
   install_resource "../../TGSDK/Assets/vg_cta.png"
   install_resource "../../TGSDK/Assets/vg_mute_off.png"
@@ -93,6 +98,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../TGSDK/Assets/__vungle.db"
   install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
   install_resource "../../TGSDK/Assets/IndependentVideoBundle.bundle"
+  install_resource "../../TGSDK/Assets/TapjoyResources.bundle"
   install_resource "../../TGSDK/Assets/UnityAds.bundle"
 fi
 

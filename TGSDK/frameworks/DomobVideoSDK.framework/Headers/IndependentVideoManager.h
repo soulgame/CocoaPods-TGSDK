@@ -16,16 +16,16 @@
 #pragma mark - independent video present callback 视频广告展现回调
 
 /**
- *  开始加载视频。
+ *  开始加载数据。
  *  Independent video starts to fetch info.
  *
  *  @param manager IndependentVideoManager
  */
 - (void)ivManagerDidStartLoad:(IndependentVideoManager *)manager;
 /**
- *  视频是否下载完成。
+ *  加载完成,带参数回调。
+ *  Fetching independent video successfully.
  *
- *  isFinished YES/NO
  *  @param manager IndependentVideoManager
  */
 - (void)ivManagerDidFinishLoad:(IndependentVideoManager *)manager finished:(BOOL)isFinished;
@@ -61,6 +61,7 @@ failedLoadWithError:(NSError *)error;
  */
 - (void)ivManagerCompletePlayVideo:(IndependentVideoManager *)manager;
 
+
 /**
  *  播放视频失败
  *  Paly independent video failed.
@@ -72,12 +73,13 @@ failedLoadWithError:(NSError *)error;
 - (void)ivManagerPlayIndependentVideo:(IndependentVideoManager *)manager
                             withError:(NSError *)error;
 
+
 /**
- *  checkVideoAvailable的回调方法,服务端是否有视频广告可以下载。
+ *  是否有视频广告可以播放。
  *  Called after check independent video available.
  *
  *  @param IndependentVideoManager
- *  @param available YES/NO
+ *  @param available
  */
 - (void)ivManager:(IndependentVideoManager *)manager
 isIndependentVideoAvailable:(BOOL)available;
@@ -91,18 +93,13 @@ isIndependentVideoAvailable:(BOOL)available;
 @property(nonatomic,assign)id<IndependentVideoManagerDelegate>delegate;
 
 /**
- *禁用StoreKit库提供的应用内打开store页面的功能，采用跳出应用打开OS内置AppStore。默认为NO，即使用StoreKit。
- */
-@property (nonatomic, assign) BOOL disableStoreKit;
-
-/**
- *是否在播放完成后弹出弹框，默认为弹出
+ *是否在播放完成后弹出弹框，默认为不弹出
  */
 @property (nonatomic, assign) BOOL disableShowAlert;
 /**
- *4G网络是否直接下载，默认YES,为下载(表示不弹出提示)
+ * 是否开启打印日志log,默认为不开启,为NO
  */
-@property (nonatomic, assign) BOOL should4GDownload;
+@property (nonatomic, assign) BOOL openLogger;
 /**
  *  用于展示sotre或者展示类广告
  */

@@ -166,6 +166,7 @@ typedef enum {
              AndAmount:(float)amount
         AndGoodsAmount:(int)goodsAmount;
 
-/**************************   错误日志上传  ******************************/
+/**************************   测试专用  ******************************/
++ (void)showTestView:(NSString* _Nonnull)scene;
 
 @end

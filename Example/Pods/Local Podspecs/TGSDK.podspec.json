@@ -1,6 +1,6 @@
 {
   "name": "TGSDK",
-  "version": "1.6.4",
+  "version": "1.6.5",
   "summary": "Yomob Ad SDK",
   "description": "Yomob Ad SDK.",
   "homepage": "https://yomob.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/soulgame/CocoaPods-TGSDK.git",
-    "tag": "1.6.4"
+    "tag": "1.6.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -29,7 +29,7 @@
     "xml2",
     "z"
   ],
-  "vendored_libraries": "TGSDK/libTGSDK.1.6.4.a",
+  "vendored_libraries": "TGSDK/libTGSDK.1.6.5.a",
   "frameworks": [
     "AudioToolbox",
     "AVFoundation",
@@ -46,7 +46,8 @@
     "SystemConfiguration",
     "WebKit",
     "JavaScriptCore",
-    "GameController"
+    "GameController",
+    "CoreMotion"
   ],
   "vendored_frameworks": [
     "TGSDK/frameworks/AdColony.framework",
@@ -63,7 +64,11 @@
     "TGSDK/frameworks/MVSDKInterstitial.framework",
     "TGSDK/frameworks/MVSDKReward.framework",
     "TGSDK/frameworks/OneWaySDK.framework",
-    "TGSDK/frameworks/AppnextSDK.framework",
-    "TGSDK/frameworks/InMobi.framework"
+    "TGSDK/frameworks/AppnextSDKCore.framework",
+    "TGSDK/frameworks/AppnextLib.framework",
+    "TGSDK/frameworks/InMobi.framework",
+    "TGSDK/frameworks/GoogleMobileAds.framework",
+    "TGSDK/frameworks/Tapjoy.framework",
+    "TGSDK/frameworks/Centrixlink.framework"
   ]
 }
