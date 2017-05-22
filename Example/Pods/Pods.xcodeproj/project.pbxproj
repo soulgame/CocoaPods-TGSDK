@@ -1,660 +1,1767 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		4D91D3921B2C50C2FD182B0D5265D2AE /* Pods-TGSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5A687FAEFA1179A8CA3F0C9D71D963 /* Pods-TGSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59E190E956A9DD3123DFFF1F861C26E0 /* Pods-TGSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCDE85815B6D4A279A831FA2A80E4EB /* Pods-TGSDK_Tests-dummy.m */; };
-		60609250F27869660BA588C8588A2F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8305BEE75E07D394298FB94525A5FFF1 /* Pods-TGSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D6AB7C2AEB49A2A45AD7AD7B2868E7 /* Pods-TGSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C81925BB6170187BD7A12C199B463337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E1B561B74F0202030314563F2BAD0C08 /* Pods-TGSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FF446737C6DDCFFB53D2BEE7F87C3 /* Pods-TGSDK_Example-dummy.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		0299B3F14CBFC9068574380462B8161B /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; path = __vungle.db; sourceTree = "<group>"; };
-		0524E4D8692415FBE1FC3AC4A12D10A5 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = TGSDK/frameworks/AdColony.framework; sourceTree = "<group>"; };
-		0613D4630BB621094FC2CA7B35492C7E /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDK.framework; path = TGSDK/frameworks/MVSDK.framework; sourceTree = "<group>"; };
-		0D85CBCE85399432FD88CE052B82FA32 /* InMobi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InMobi.framework; path = TGSDK/frameworks/InMobi.framework; sourceTree = "<group>"; };
-		0F5A687FAEFA1179A8CA3F0C9D71D963 /* Pods-TGSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TGSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		12A22814FEE04B30AD0F2453B540AF0B /* Pods_TGSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TGSDK_Tests.framework; path = "Pods-TGSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1459E0EBA40A721D2E048100DBBC0566 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19E62409162CAEE519A64A5CCF161051 /* Pods-TGSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		208279615CB231D34B1218B300A90ED2 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_close.png; sourceTree = "<group>"; };
-		227063B28EA45053403F23DD3BC1DC61 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = TGSDK/frameworks/VungleSDK.framework; sourceTree = "<group>"; };
-		31FC161B679C59E82145DA0A1A1EA726 /* Pods-TGSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		353D868D8AFF10E3690A5671A9EC4210 /* MVSDKInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDKInterstitial.framework; path = TGSDK/frameworks/MVSDKInterstitial.framework; sourceTree = "<group>"; };
-		3639BB35511FC1F47373B2C982E8AC50 /* Pods-TGSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TGSDK_Example.modulemap"; sourceTree = "<group>"; };
-		39EB531B021D4BF4075FD215A3483D10 /* IndependentVideoBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = IndependentVideoBundle.bundle; sourceTree = "<group>"; };
-		3F7FF446737C6DDCFFB53D2BEE7F87C3 /* Pods-TGSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TGSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		4379638DFF69BA7FAD6E5F390A694CC3 /* AppnextLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppnextLib.framework; path = TGSDK/frameworks/AppnextLib.framework; sourceTree = "<group>"; };
-		4D07FBC5FC736CBC79597B10F77A8AD0 /* Pods-TGSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5884B9BB8599F1992FC6D6CA66422627 /* OneWaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneWaySDK.framework; path = TGSDK/frameworks/OneWaySDK.framework; sourceTree = "<group>"; };
-		58D430E6919ABDDA4ACB390A3A25C08B /* Pods-TGSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		58E00261DD53BBA67C47989A4249BD7D /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = TGSDK/frameworks/Chartboost.framework; sourceTree = "<group>"; };
-		5BCDE85815B6D4A279A831FA2A80E4EB /* Pods-TGSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TGSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		5D23D8BE1DC30F5A0F7E5FF7E582B2D9 /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDKReward.framework; path = TGSDK/frameworks/MVSDKReward.framework; sourceTree = "<group>"; };
-		67FF35E0E1B8B4B41C0F6F34E21C44A0 /* Pods-TGSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TGSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		68272419C36C4BC1FB43858870A48C11 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppLovinSDK.framework; path = TGSDK/frameworks/AppLovinSDK.framework; sourceTree = "<group>"; };
-		7427CDF65AFD63015EC46B54A06237A7 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = TGSDK/frameworks/UnityAds.framework; sourceTree = "<group>"; };
-		77BC72F8455B4A4A6E6154C952104C7C /* Pods-TGSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		780B25C01187D7E774E245A8D38E1281 /* TGUnstartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; path = TGUnstartedIcon.png; sourceTree = "<group>"; };
-		7AEE98E4E71F3350CF6F6D1D7C743013 /* Pods_TGSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TGSDK_Example.framework; path = "Pods-TGSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8419474E957F6C0B90B0B4CB6F0290CC /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = TGSDK/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
-		87CD868AA39A7E199EA54BEF2DA68242 /* AppTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTracker.framework; path = TGSDK/frameworks/AppTracker.framework; sourceTree = "<group>"; };
-		892BE534F00A6505251A0F69976E2353 /* Pods-TGSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94505049A903A2FBB69684537434789A /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tapjoy.framework; path = TGSDK/frameworks/Tapjoy.framework; sourceTree = "<group>"; };
-		96D445EC687BB792FE86C444DC783B2A /* TGSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TGSDK.h; sourceTree = "<group>"; };
-		9B59C8AA41033943DD398EC8E4FE912E /* TGStartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; path = TGStartedIcon.png; sourceTree = "<group>"; };
-		9EC035B993184D1C9DD549C105347F0D /* Pods-TGSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A64956A1EB2AFB8A065B919B5DF75C63 /* UnityAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
-		A8307341669505B6C87C386118E933AB /* Pods-TGSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TGSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ADAD1209AF6EBB66C95B724D2A213AA7 /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_mute_off.png; sourceTree = "<group>"; };
-		B0907AD49990037946AA562737022AFA /* ChanceAdRes.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ChanceAdRes.bundle; sourceTree = "<group>"; };
-		B9BBA96402B5CE8BB074188184448BA5 /* Pods-TGSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BAFA96ADF061AD3967FC7448A68465F2 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_mute_on.png; sourceTree = "<group>"; };
-		BC02D6E1CF7BE8949B177078ADFDB810 /* AppnextSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppnextSDKCore.framework; path = TGSDK/frameworks/AppnextSDKCore.framework; sourceTree = "<group>"; };
-		BD0FE23774A1C2B837EBA45574A3CD46 /* libTGSDK.1.6.5.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTGSDK.1.6.5.a; path = TGSDK/libTGSDK.1.6.5.a; sourceTree = "<group>"; };
-		C1D6AB7C2AEB49A2A45AD7AD7B2868E7 /* Pods-TGSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TGSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		C707CE0FDEBA02EDE3068DFDBE73E343 /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_cta.png; sourceTree = "<group>"; };
-		CA3A22934C7A3A45F2C5424AF6BB50AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE4BF18D5BA64E5306BB437BB83D3B0E /* DianjoyVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DianjoyVideo.framework; path = TGSDK/frameworks/DianjoyVideo.framework; sourceTree = "<group>"; };
-		D38463FB2AD1EA235082E753245658DD /* ChanceAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChanceAdSDK.framework; path = TGSDK/frameworks/ChanceAdSDK.framework; sourceTree = "<group>"; };
-		D91C1E2628816B5CD8970DD2387E8D9B /* TapjoyResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
-		E9DA615104235061C6D0C21462D67D6F /* Pods-TGSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TGSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		EB1AA025D289804857E977621FBFC2F8 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = TGSDK/frameworks/FMDB.framework; sourceTree = "<group>"; };
-		EEA31B9B05DB1FC82A9E9E06A4037D95 /* Pods-TGSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Tests-resources.sh"; sourceTree = "<group>"; };
-		F529D2A192FB923621B7B01309BA2ED1 /* Centrixlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Centrixlink.framework; path = TGSDK/frameworks/Centrixlink.framework; sourceTree = "<group>"; };
-		F722E8B5B1F355E7820029FEACD2D26F /* DomobVideoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DomobVideoSDK.framework; path = TGSDK/frameworks/DomobVideoSDK.framework; sourceTree = "<group>"; };
-		FC23569DBF8EDBFEBB6432D61FB8050A /* Pods-TGSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FEB5B153B722517ABAC2FCE4DC49841C /* vg_privacy.png */ = {isa = PBXFileReference; includeInIndex = 1; path = vg_privacy.png; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		7498DD7DD97A73E18A55C75F15D2234D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C81925BB6170187BD7A12C199B463337 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DD955E6C37A0F64C050CF41E03D46B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60609250F27869660BA588C8588A2F6D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		195C8C1EF3F85BC3B4660257CB2E4AE8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1EC8B9972F46575C4DC928E34AAC0CA7 /* TGSDK */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		1EC8B9972F46575C4DC928E34AAC0CA7 /* TGSDK */ = {
-			isa = PBXGroup;
-			children = (
-				2CC87A5E008E27597024E872B2794CC7 /* Assets */,
-			);
-			name = TGSDK;
-			path = TGSDK;
-			sourceTree = "<group>";
-		};
-		2818A8395919A1E2E447C881C53EA485 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8F1A43D67217FF19F237256F28655D33 /* TGSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2CC87A5E008E27597024E872B2794CC7 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				0299B3F14CBFC9068574380462B8161B /* __vungle.db */,
-				B0907AD49990037946AA562737022AFA /* ChanceAdRes.bundle */,
-				39EB531B021D4BF4075FD215A3483D10 /* IndependentVideoBundle.bundle */,
-				D91C1E2628816B5CD8970DD2387E8D9B /* TapjoyResources.bundle */,
-				9B59C8AA41033943DD398EC8E4FE912E /* TGStartedIcon.png */,
-				780B25C01187D7E774E245A8D38E1281 /* TGUnstartedIcon.png */,
-				A64956A1EB2AFB8A065B919B5DF75C63 /* UnityAds.bundle */,
-				208279615CB231D34B1218B300A90ED2 /* vg_close.png */,
-				C707CE0FDEBA02EDE3068DFDBE73E343 /* vg_cta.png */,
-				ADAD1209AF6EBB66C95B724D2A213AA7 /* vg_mute_off.png */,
-				BAFA96ADF061AD3967FC7448A68465F2 /* vg_mute_on.png */,
-				FEB5B153B722517ABAC2FCE4DC49841C /* vg_privacy.png */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		4657BF1FBC5EABDBA6E6D7B25F199424 /* Pods-TGSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1459E0EBA40A721D2E048100DBBC0566 /* Info.plist */,
-				3639BB35511FC1F47373B2C982E8AC50 /* Pods-TGSDK_Example.modulemap */,
-				A8307341669505B6C87C386118E933AB /* Pods-TGSDK_Example-acknowledgements.markdown */,
-				4D07FBC5FC736CBC79597B10F77A8AD0 /* Pods-TGSDK_Example-acknowledgements.plist */,
-				3F7FF446737C6DDCFFB53D2BEE7F87C3 /* Pods-TGSDK_Example-dummy.m */,
-				58D430E6919ABDDA4ACB390A3A25C08B /* Pods-TGSDK_Example-frameworks.sh */,
-				31FC161B679C59E82145DA0A1A1EA726 /* Pods-TGSDK_Example-resources.sh */,
-				C1D6AB7C2AEB49A2A45AD7AD7B2868E7 /* Pods-TGSDK_Example-umbrella.h */,
-				77BC72F8455B4A4A6E6154C952104C7C /* Pods-TGSDK_Example.debug.xcconfig */,
-				19E62409162CAEE519A64A5CCF161051 /* Pods-TGSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-TGSDK_Example";
-			path = "Target Support Files/Pods-TGSDK_Example";
-			sourceTree = "<group>";
-		};
-		73865942105CD79FBF5AEF2DCD102B16 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7AEE98E4E71F3350CF6F6D1D7C743013 /* Pods_TGSDK_Example.framework */,
-				12A22814FEE04B30AD0F2453B540AF0B /* Pods_TGSDK_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2818A8395919A1E2E447C881C53EA485 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				73865942105CD79FBF5AEF2DCD102B16 /* Products */,
-				F70D7054D238E80916AB98975F6924CE /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		873A1DA2220226261AA3F8436C92F5EF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B9B021136506232C2B53404E41AF77CC /* include */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		8CD5732A6FFF69C146703D4F17A67151 /* TGSDK */ = {
-			isa = PBXGroup;
-			children = (
-				873A1DA2220226261AA3F8436C92F5EF /* Classes */,
-			);
-			name = TGSDK;
-			path = TGSDK;
-			sourceTree = "<group>";
-		};
-		8F1A43D67217FF19F237256F28655D33 /* TGSDK */ = {
-			isa = PBXGroup;
-			children = (
-				FE6516ABD6F3289EDD36FD203BA0CE9E /* Frameworks */,
-				195C8C1EF3F85BC3B4660257CB2E4AE8 /* Resources */,
-				8CD5732A6FFF69C146703D4F17A67151 /* TGSDK */,
-			);
-			name = TGSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B9B021136506232C2B53404E41AF77CC /* include */ = {
-			isa = PBXGroup;
-			children = (
-				D7AEA9CD78B653C25A2B52366E9949BE /* TGSDK */,
-			);
-			name = include;
-			path = include;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7AEA9CD78B653C25A2B52366E9949BE /* TGSDK */ = {
-			isa = PBXGroup;
-			children = (
-				96D445EC687BB792FE86C444DC783B2A /* TGSDK.h */,
-			);
-			name = TGSDK;
-			path = TGSDK;
-			sourceTree = "<group>";
-		};
-		DD34CD6C985CDAC7FAEEE99B8AA6BDFD /* Pods-TGSDK_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CA3A22934C7A3A45F2C5424AF6BB50AA /* Info.plist */,
-				E9DA615104235061C6D0C21462D67D6F /* Pods-TGSDK_Tests.modulemap */,
-				67FF35E0E1B8B4B41C0F6F34E21C44A0 /* Pods-TGSDK_Tests-acknowledgements.markdown */,
-				9EC035B993184D1C9DD549C105347F0D /* Pods-TGSDK_Tests-acknowledgements.plist */,
-				5BCDE85815B6D4A279A831FA2A80E4EB /* Pods-TGSDK_Tests-dummy.m */,
-				FC23569DBF8EDBFEBB6432D61FB8050A /* Pods-TGSDK_Tests-frameworks.sh */,
-				EEA31B9B05DB1FC82A9E9E06A4037D95 /* Pods-TGSDK_Tests-resources.sh */,
-				0F5A687FAEFA1179A8CA3F0C9D71D963 /* Pods-TGSDK_Tests-umbrella.h */,
-				892BE534F00A6505251A0F69976E2353 /* Pods-TGSDK_Tests.debug.xcconfig */,
-				B9BBA96402B5CE8BB074188184448BA5 /* Pods-TGSDK_Tests.release.xcconfig */,
-			);
-			name = "Pods-TGSDK_Tests";
-			path = "Target Support Files/Pods-TGSDK_Tests";
-			sourceTree = "<group>";
-		};
-		F70D7054D238E80916AB98975F6924CE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4657BF1FBC5EABDBA6E6D7B25F199424 /* Pods-TGSDK_Example */,
-				DD34CD6C985CDAC7FAEEE99B8AA6BDFD /* Pods-TGSDK_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FE6516ABD6F3289EDD36FD203BA0CE9E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0524E4D8692415FBE1FC3AC4A12D10A5 /* AdColony.framework */,
-				68272419C36C4BC1FB43858870A48C11 /* AppLovinSDK.framework */,
-				4379638DFF69BA7FAD6E5F390A694CC3 /* AppnextLib.framework */,
-				BC02D6E1CF7BE8949B177078ADFDB810 /* AppnextSDKCore.framework */,
-				87CD868AA39A7E199EA54BEF2DA68242 /* AppTracker.framework */,
-				F529D2A192FB923621B7B01309BA2ED1 /* Centrixlink.framework */,
-				D38463FB2AD1EA235082E753245658DD /* ChanceAdSDK.framework */,
-				58E00261DD53BBA67C47989A4249BD7D /* Chartboost.framework */,
-				CE4BF18D5BA64E5306BB437BB83D3B0E /* DianjoyVideo.framework */,
-				F722E8B5B1F355E7820029FEACD2D26F /* DomobVideoSDK.framework */,
-				EB1AA025D289804857E977621FBFC2F8 /* FMDB.framework */,
-				8419474E957F6C0B90B0B4CB6F0290CC /* GoogleMobileAds.framework */,
-				0D85CBCE85399432FD88CE052B82FA32 /* InMobi.framework */,
-				BD0FE23774A1C2B837EBA45574A3CD46 /* libTGSDK.1.6.5.a */,
-				0613D4630BB621094FC2CA7B35492C7E /* MVSDK.framework */,
-				353D868D8AFF10E3690A5671A9EC4210 /* MVSDKInterstitial.framework */,
-				5D23D8BE1DC30F5A0F7E5FF7E582B2D9 /* MVSDKReward.framework */,
-				5884B9BB8599F1992FC6D6CA66422627 /* OneWaySDK.framework */,
-				94505049A903A2FBB69684537434789A /* Tapjoy.framework */,
-				7427CDF65AFD63015EC46B54A06237A7 /* UnityAds.framework */,
-				227063B28EA45053403F23DD3BC1DC61 /* VungleSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		469FF5781762370052EB45B14E2628EB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D91D3921B2C50C2FD182B0D5265D2AE /* Pods-TGSDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA5D3BFFDB4B1DF2A434AC7BCA5A031D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8305BEE75E07D394298FB94525A5FFF1 /* Pods-TGSDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		A372D1D5BF0F90657DFC5D19559525BC /* Pods-TGSDK_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D242CB46233BFBD84AF92C84DE8729AD /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Example" */;
-			buildPhases = (
-				F0B6790778B568B238EDC6C34B01546C /* Sources */,
-				8DD955E6C37A0F64C050CF41E03D46B0 /* Frameworks */,
-				CA5D3BFFDB4B1DF2A434AC7BCA5A031D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TGSDK_Example";
-			productName = "Pods-TGSDK_Example";
-			productReference = 7AEE98E4E71F3350CF6F6D1D7C743013 /* Pods_TGSDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B88B15D10D92F917953DCE7D92EDDBC9 /* Pods-TGSDK_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51DDCCAC7FB7AD6807DFB12A4E90623B /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Tests" */;
-			buildPhases = (
-				61977E30D535F06656025993CEEC9DAC /* Sources */,
-				7498DD7DD97A73E18A55C75F15D2234D /* Frameworks */,
-				469FF5781762370052EB45B14E2628EB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TGSDK_Tests";
-			productName = "Pods-TGSDK_Tests";
-			productReference = 12A22814FEE04B30AD0F2453B540AF0B /* Pods_TGSDK_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 73865942105CD79FBF5AEF2DCD102B16 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				A372D1D5BF0F90657DFC5D19559525BC /* Pods-TGSDK_Example */,
-				B88B15D10D92F917953DCE7D92EDDBC9 /* Pods-TGSDK_Tests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		61977E30D535F06656025993CEEC9DAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59E190E956A9DD3123DFFF1F861C26E0 /* Pods-TGSDK_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0B6790778B568B238EDC6C34B01546C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1B561B74F0202030314563F2BAD0C08 /* Pods-TGSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin XCBuildConfiguration section */
-		19114F5E2B4FD612B4265AC68E82DFD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19E62409162CAEE519A64A5CCF161051 /* Pods-TGSDK_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Example/Pods-TGSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TGSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6483BB4689FC6C135A868B8BD6362EEF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892BE534F00A6505251A0F69976E2353 /* Pods-TGSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TGSDK_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		93FC3BF594C27B315AB934C646D79E9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9BBA96402B5CE8BB074188184448BA5 /* Pods-TGSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TGSDK_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B39E7D2025CCE3898897AFFD1D611413 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77BC72F8455B4A4A6E6154C952104C7C /* Pods-TGSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TGSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TGSDK_Example/Pods-TGSDK_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TGSDK_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		51DDCCAC7FB7AD6807DFB12A4E90623B /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6483BB4689FC6C135A868B8BD6362EEF /* Debug */,
-				93FC3BF594C27B315AB934C646D79E9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D242CB46233BFBD84AF92C84DE8729AD /* Build configuration list for PBXNativeTarget "Pods-TGSDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B39E7D2025CCE3898897AFFD1D611413 /* Debug */,
-				19114F5E2B4FD612B4265AC68E82DFD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0299B3F14CBFC9068574380462B8161B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>__vungle.db</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0BED99123272135072C6CB91856FA1D0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1FFE9D3B3D4B166B35BDC7698026CCB8</string>
+				<string>212A724A22E7B950842788A6AA9B8240</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>0F5A687FAEFA1179A8CA3F0C9D71D963</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12A22814FEE04B30AD0F2453B540AF0B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_TGSDK_Tests.framework</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>1459E0EBA40A721D2E048100DBBC0566</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>151F0818A9F7E53E5EA66AFC6250E1E3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Tapjoy.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/Tapjoy.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18C5760223D942BA6D7D7B551E2F05C8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9EF18E321697C09A43250FB2F4ADE9FD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>3377B8AB811C63A029662B67D14643F0</string>
+				<string>F0739A1A87FC891771795C52905828B3</string>
+				<string>5CE91C469B24D44E3DBCAE6F4FB1F08F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-TGSDK_Tests</string>
+			<key>productName</key>
+			<string>Pods-TGSDK_Tests</string>
+			<key>productReference</key>
+			<string>12A22814FEE04B30AD0F2453B540AF0B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>195C8C1EF3F85BC3B4660257CB2E4AE8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1EC8B9972F46575C4DC928E34AAC0CA7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>19E62409162CAEE519A64A5CCF161051</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1EC8B9972F46575C4DC928E34AAC0CA7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2CC87A5E008E27597024E872B2794CC7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TGSDK</string>
+			<key>path</key>
+			<string>TGSDK</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1FFE9D3B3D4B166B35BDC7698026CCB8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>77BC72F8455B4A4A6E6154C952104C7C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Example/Pods-TGSDK_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_TGSDK_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>208279615CB231D34B1218B300A90ED2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_close.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>212A724A22E7B950842788A6AA9B8240</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>19E62409162CAEE519A64A5CCF161051</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Example/Pods-TGSDK_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_TGSDK_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2818A8395919A1E2E447C881C53EA485</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8F1A43D67217FF19F237256F28655D33</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>289DF91592983859D645EC0D94B68C85</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2992C933FF0912B182BFE5E2C089FF53</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A56D5A18D56830326D0B7C8D8C1A6320</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2A3945A603A7E7E6F300374C676D0F71</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libTGSDK.1.6.6.a</string>
+			<key>path</key>
+			<string>TGSDK/libTGSDK.1.6.6.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2CC87A5E008E27597024E872B2794CC7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0299B3F14CBFC9068574380462B8161B</string>
+				<string>B0907AD49990037946AA562737022AFA</string>
+				<string>39EB531B021D4BF4075FD215A3483D10</string>
+				<string>D91C1E2628816B5CD8970DD2387E8D9B</string>
+				<string>9B59C8AA41033943DD398EC8E4FE912E</string>
+				<string>780B25C01187D7E774E245A8D38E1281</string>
+				<string>A64956A1EB2AFB8A065B919B5DF75C63</string>
+				<string>208279615CB231D34B1218B300A90ED2</string>
+				<string>C707CE0FDEBA02EDE3068DFDBE73E343</string>
+				<string>ADAD1209AF6EBB66C95B724D2A213AA7</string>
+				<string>BAFA96ADF061AD3967FC7448A68465F2</string>
+				<string>FEB5B153B722517ABAC2FCE4DC49841C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Assets</string>
+			<key>path</key>
+			<string>Assets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9E1E4E48AF2EAB23169E611BF694090A</string>
+				<string>8DED8AD26D381A6ACFF202E5217EC498</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2F1263549D39A960E52829A565F39658</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>0BED99123272135072C6CB91856FA1D0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2992C933FF0912B182BFE5E2C089FF53</string>
+				<string>95C7758525823A17651D73A16C98EA0D</string>
+				<string>53C0736A519D4792C8E66A692C21492D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-TGSDK_Example</string>
+			<key>productName</key>
+			<string>Pods-TGSDK_Example</string>
+			<key>productReference</key>
+			<string>7AEE98E4E71F3350CF6F6D1D7C743013</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>31FC161B679C59E82145DA0A1A1EA726</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3377B8AB811C63A029662B67D14643F0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E9C3F328DB7D7967B920EFE39CC69F97</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3639BB35511FC1F47373B2C982E8AC50</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39EB531B021D4BF4075FD215A3483D10</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>path</key>
+			<string>IndependentVideoBundle.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F7FF446737C6DDCFFB53D2BEE7F87C3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>418D3F5B4FF14B9B11555D62B5355544</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Chartboost.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/Chartboost.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4657BF1FBC5EABDBA6E6D7B25F199424</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1459E0EBA40A721D2E048100DBBC0566</string>
+				<string>3639BB35511FC1F47373B2C982E8AC50</string>
+				<string>A8307341669505B6C87C386118E933AB</string>
+				<string>4D07FBC5FC736CBC79597B10F77A8AD0</string>
+				<string>3F7FF446737C6DDCFFB53D2BEE7F87C3</string>
+				<string>58D430E6919ABDDA4ACB390A3A25C08B</string>
+				<string>31FC161B679C59E82145DA0A1A1EA726</string>
+				<string>C1D6AB7C2AEB49A2A45AD7AD7B2868E7</string>
+				<string>77BC72F8455B4A4A6E6154C952104C7C</string>
+				<string>19E62409162CAEE519A64A5CCF161051</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-TGSDK_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-TGSDK_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D07FBC5FC736CBC79597B10F77A8AD0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53C0736A519D4792C8E66A692C21492D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E6CD92A2A7FD76FBFF5FDB43D4ECF145</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>57B14CF43089805D3BA1C5C70666FBBC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MVSDKReward.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/MVSDKReward.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>58D430E6919ABDDA4ACB390A3A25C08B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5BCDE85815B6D4A279A831FA2A80E4EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5CE91C469B24D44E3DBCAE6F4FB1F08F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C93E63CD6152E5FDE8638573876BED38</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>60768E48871798C6F6CC5BE35D61CA44</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6BE61D9AAACAB1552CFF3F7E49FA20C8</string>
+				<string>ACB1C78E74CA234397B4C0F88A7479FD</string>
+				<string>C1A60CE3AB42E24836B2E191A1BED9BC</string>
+				<string>CFAAD160431E3BF959401882A8B97284</string>
+				<string>82955D0867FCD3326893DE4D3F038677</string>
+				<string>F8897F8B4CEBA8958D16083A95B9A922</string>
+				<string>B31987C83187431A0F9B9A0D6225052B</string>
+				<string>418D3F5B4FF14B9B11555D62B5355544</string>
+				<string>F2B0550FCA19D25E68C5D9DC2F5FC179</string>
+				<string>805C6C61ECED3DBF7C1FB5643F1E83F5</string>
+				<string>B174383E9228FEF063B4BD6CD3A775E9</string>
+				<string>8395280E7AD3E3647D239BF41DE00390</string>
+				<string>D52BE67707AE40FE10BDCF6DF030EC2B</string>
+				<string>2A3945A603A7E7E6F300374C676D0F71</string>
+				<string>A459C656FCB0C091D69EAD7ECDCB079D</string>
+				<string>FEAC5C170A693921D813E33E4F1AA271</string>
+				<string>57B14CF43089805D3BA1C5C70666FBBC</string>
+				<string>C80BBA185E90A43C08E4FB76DC1CF913</string>
+				<string>151F0818A9F7E53E5EA66AFC6250E1E3</string>
+				<string>89D589848A9FAF3C8A97F8FEE294E104</string>
+				<string>7007C0EDB2CEDFA25CC143B62BEB1745</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67FF35E0E1B8B4B41C0F6F34E21C44A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6BE61D9AAACAB1552CFF3F7E49FA20C8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AdColony.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AdColony.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7007C0EDB2CEDFA25CC143B62BEB1745</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>VungleSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/VungleSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>73865942105CD79FBF5AEF2DCD102B16</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7AEE98E4E71F3350CF6F6D1D7C743013</string>
+				<string>12A22814FEE04B30AD0F2453B540AF0B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77BC72F8455B4A4A6E6154C952104C7C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>780B25C01187D7E774E245A8D38E1281</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TGUnstartedIcon.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7AEE98E4E71F3350CF6F6D1D7C743013</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_TGSDK_Example.framework</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
+				<string>2818A8395919A1E2E447C881C53EA485</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>73865942105CD79FBF5AEF2DCD102B16</string>
+				<string>F70D7054D238E80916AB98975F6924CE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>805C6C61ECED3DBF7C1FB5643F1E83F5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>DomobVideoSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/DomobVideoSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>82955D0867FCD3326893DE4D3F038677</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppTracker.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AppTracker.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8395280E7AD3E3647D239BF41DE00390</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleMobileAds.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/GoogleMobileAds.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>873A1DA2220226261AA3F8436C92F5EF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B9B021136506232C2B53404E41AF77CC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>892BE534F00A6505251A0F69976E2353</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>89D589848A9FAF3C8A97F8FEE294E104</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UnityAds.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/UnityAds.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CD5732A6FFF69C146703D4F17A67151</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>873A1DA2220226261AA3F8436C92F5EF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TGSDK</string>
+			<key>path</key>
+			<string>TGSDK</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8DED8AD26D381A6ACFF202E5217EC498</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGNING_REQUIRED</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_RELEASE=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>PROVISIONING_PROFILE_SPECIFIER</key>
+				<string>NO_SIGNING/</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8F1A43D67217FF19F237256F28655D33</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>60768E48871798C6F6CC5BE35D61CA44</string>
+				<string>195C8C1EF3F85BC3B4660257CB2E4AE8</string>
+				<string>8CD5732A6FFF69C146703D4F17A67151</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TGSDK</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>text.script.ruby</string>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>95C7758525823A17651D73A16C98EA0D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F91B2AE5609D1803CEE8BE99E5720317</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>96D445EC687BB792FE86C444DC783B2A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TGSDK.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B59C8AA41033943DD398EC8E4FE912E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TGStartedIcon.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E1E4E48AF2EAB23169E611BF694090A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGNING_REQUIRED</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_DEBUG=1</string>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>PROVISIONING_PROFILE_SPECIFIER</key>
+				<string>NO_SIGNING/</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9EC035B993184D1C9DD549C105347F0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9EF18E321697C09A43250FB2F4ADE9FD</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D1CDECE5BBB2BF6D84D445DD304753ED</string>
+				<string>A2E23E235149BD17453C97118D19845E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A2E23E235149BD17453C97118D19845E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B9BBA96402B5CE8BB074188184448BA5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Tests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_TGSDK_Tests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A459C656FCB0C091D69EAD7ECDCB079D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MVSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/MVSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A56D5A18D56830326D0B7C8D8C1A6320</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F7FF446737C6DDCFFB53D2BEE7F87C3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A64956A1EB2AFB8A065B919B5DF75C63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>path</key>
+			<string>UnityAds.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8307341669505B6C87C386118E933AB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACB1C78E74CA234397B4C0F88A7479FD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppLovinSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AppLovinSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ADAD1209AF6EBB66C95B724D2A213AA7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_mute_off.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0907AD49990037946AA562737022AFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>path</key>
+			<string>ChanceAdRes.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B174383E9228FEF063B4BD6CD3A775E9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FMDB.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/FMDB.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B31987C83187431A0F9B9A0D6225052B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>ChanceAdSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/ChanceAdSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B9B021136506232C2B53404E41AF77CC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D7AEA9CD78B653C25A2B52366E9949BE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>include</string>
+			<key>path</key>
+			<string>include</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B9BBA96402B5CE8BB074188184448BA5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BAFA96ADF061AD3967FC7448A68465F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_mute_on.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1A60CE3AB42E24836B2E191A1BED9BC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppnextLib.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AppnextLib.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1D6AB7C2AEB49A2A45AD7AD7B2868E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Example-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C707CE0FDEBA02EDE3068DFDBE73E343</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_cta.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C80BBA185E90A43C08E4FB76DC1CF913</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>OneWaySDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/OneWaySDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C93E63CD6152E5FDE8638573876BED38</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0F5A687FAEFA1179A8CA3F0C9D71D963</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CA3A22934C7A3A45F2C5424AF6BB50AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>CFAAD160431E3BF959401882A8B97284</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppnextSDKCore.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AppnextSDKCore.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1CDECE5BBB2BF6D84D445DD304753ED</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>892BE534F00A6505251A0F69976E2353</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=appletvos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+				<string></string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Tests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-TGSDK_Tests/Pods-TGSDK_Tests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_TGSDK_Tests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>73865942105CD79FBF5AEF2DCD102B16</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>2F1263549D39A960E52829A565F39658</string>
+				<string>18C5760223D942BA6D7D7B551E2F05C8</string>
+			</array>
+		</dict>
+		<key>D52BE67707AE40FE10BDCF6DF030EC2B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>InMobi.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/InMobi.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7AEA9CD78B653C25A2B52366E9949BE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>96D445EC687BB792FE86C444DC783B2A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TGSDK</string>
+			<key>path</key>
+			<string>TGSDK</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D91C1E2628816B5CD8970DD2387E8D9B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>path</key>
+			<string>TapjoyResources.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DD34CD6C985CDAC7FAEEE99B8AA6BDFD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CA3A22934C7A3A45F2C5424AF6BB50AA</string>
+				<string>E9DA615104235061C6D0C21462D67D6F</string>
+				<string>67FF35E0E1B8B4B41C0F6F34E21C44A0</string>
+				<string>9EC035B993184D1C9DD549C105347F0D</string>
+				<string>5BCDE85815B6D4A279A831FA2A80E4EB</string>
+				<string>FC23569DBF8EDBFEBB6432D61FB8050A</string>
+				<string>EEA31B9B05DB1FC82A9E9E06A4037D95</string>
+				<string>0F5A687FAEFA1179A8CA3F0C9D71D963</string>
+				<string>892BE534F00A6505251A0F69976E2353</string>
+				<string>B9BBA96402B5CE8BB074188184448BA5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-TGSDK_Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-TGSDK_Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6CD92A2A7FD76FBFF5FDB43D4ECF145</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1D6AB7C2AEB49A2A45AD7AD7B2868E7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E9C3F328DB7D7967B920EFE39CC69F97</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5BCDE85815B6D4A279A831FA2A80E4EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E9DA615104235061C6D0C21462D67D6F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EEA31B9B05DB1FC82A9E9E06A4037D95</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0739A1A87FC891771795C52905828B3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>289DF91592983859D645EC0D94B68C85</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F2B0550FCA19D25E68C5D9DC2F5FC179</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>DianjoyVideo.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/DianjoyVideo.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F70D7054D238E80916AB98975F6924CE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4657BF1FBC5EABDBA6E6D7B25F199424</string>
+				<string>DD34CD6C985CDAC7FAEEE99B8AA6BDFD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F8897F8B4CEBA8958D16083A95B9A922</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Centrixlink.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/Centrixlink.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F91B2AE5609D1803CEE8BE99E5720317</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FC23569DBF8EDBFEBB6432D61FB8050A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TGSDK_Tests-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEAC5C170A693921D813E33E4F1AA271</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MVSDKInterstitial.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/MVSDKInterstitial.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEB5B153B722517ABAC2FCE4DC49841C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_privacy.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>
