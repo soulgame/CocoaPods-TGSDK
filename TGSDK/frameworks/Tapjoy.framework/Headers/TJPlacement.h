@@ -131,7 +131,7 @@ typedef enum TJCActionRequestTypeEnum {
 @end
 
 /**
- * Delegate used to recieve video events from TJPlacement
+ * Delegate used to receive video events from TJPlacement
  */
 @protocol TJPlacementVideoDelegate <NSObject>
 
@@ -184,7 +184,8 @@ typedef enum TJCActionRequestTypeEnum {
 /** The TJPlacementDelegate used to handle responses that are received upon sending this placement*/
 @property (nonatomic, weak) id<TJPlacementDelegate> delegate;
 
-@property (nonatomic, weak) id<TJPlacementVideoDelegate> videoDelegate;	/*!< The delegate that implements the TJPlacementVideoDelegate protocol */
+/** The delegate that implements the TJPlacementVideoDelegate protocol */
+@property (nonatomic, weak) id<TJPlacementVideoDelegate> videoDelegate;
 
 /** The name of the placement */
 @property (nonatomic, copy) NSString *placementName;

@@ -70,7 +70,7 @@
  *
  *  @param unitId      - the unitId string of the Ad that has been dismissed
  *  @param converted   - BOOL describing whether the ad has converted
- *  @param rewardInfo  - the rewardInfo object containing an array of reward objects that should be given to your user.
+ *  @param rewardInfo  - the rewardInfo object containing the info that should be given to your user.
  */
 - (void)onVideoAdDismissed:(nullable NSString *)unitId withConverted:(BOOL)converted withRewardInfo:(nullable MVRewardAdInfo *)rewardInfo;
 @end

@@ -10,14 +10,27 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0299B3F14CBFC9068574380462B8161B</key>
+		<key>0A5B966A33DDE6144EE71FB83B40BA25</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>__vungle.db</string>
+			<string>vg_cta.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0AE590061922E4EC44DBCF465B28B821</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>OneWaySDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/OneWaySDK.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -45,6 +58,21 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-TGSDK_Tests-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12002AB80ACAA3FE88836F17B5CF8CF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FD5F6C14811E2AF393A7BEDFC1610260</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TGSDK</string>
+			<key>path</key>
+			<string>TGSDK</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -76,19 +104,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>151F0818A9F7E53E5EA66AFC6250E1E3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Tapjoy.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/Tapjoy.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>18C5760223D942BA6D7D7B551E2F05C8</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -114,11 +129,22 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>195B5067F3A1E6192DF240ADE42FF1A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_mute_off.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>195C8C1EF3F85BC3B4660257CB2E4AE8</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>1EC8B9972F46575C4DC928E34AAC0CA7</string>
+				<string>12002AB80ACAA3FE88836F17B5CF8CF4</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -140,18 +166,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1EC8B9972F46575C4DC928E34AAC0CA7</key>
+		<key>1FD25F8634DE0AE3D247937529B1818C</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>2CC87A5E008E27597024E872B2794CC7</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>TGSDK</string>
+			<string>UnityAds.framework</string>
 			<key>path</key>
-			<string>TGSDK</string>
+			<string>TGSDK/frameworks/UnityAds.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -226,17 +250,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>208279615CB231D34B1218B300A90ED2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vg_close.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>212A724A22E7B950842788A6AA9B8240</key>
 		<dict>
@@ -330,6 +343,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>28E91463CBBE5DAA88CD957C87AEBF81</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>InMobi.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/InMobi.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2992C933FF0912B182BFE5E2C089FF53</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -342,47 +368,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>2A3945A603A7E7E6F300374C676D0F71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libTGSDK.1.6.6.a</string>
-			<key>path</key>
-			<string>TGSDK/libTGSDK.1.6.6.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2CC87A5E008E27597024E872B2794CC7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0299B3F14CBFC9068574380462B8161B</string>
-				<string>B0907AD49990037946AA562737022AFA</string>
-				<string>39EB531B021D4BF4075FD215A3483D10</string>
-				<string>D91C1E2628816B5CD8970DD2387E8D9B</string>
-				<string>9B59C8AA41033943DD398EC8E4FE912E</string>
-				<string>780B25C01187D7E774E245A8D38E1281</string>
-				<string>A64956A1EB2AFB8A065B919B5DF75C63</string>
-				<string>208279615CB231D34B1218B300A90ED2</string>
-				<string>C707CE0FDEBA02EDE3068DFDBE73E343</string>
-				<string>ADAD1209AF6EBB66C95B724D2A213AA7</string>
-				<string>BAFA96ADF061AD3967FC7448A68465F2</string>
-				<string>FEB5B153B722517ABAC2FCE4DC49841C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Assets</string>
-			<key>path</key>
-			<string>Assets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -397,6 +382,17 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>2DB640B9E9D89D5CE38510744B42FE1C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_close.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2F1263549D39A960E52829A565F39658</key>
 		<dict>
@@ -449,6 +445,47 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>3483408C05352BC2468CBC959FA0318B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>path</key>
+			<string>ChanceAdRes.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34ABD3980C7FBC729B01F16E93635180</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libTGSDK.1.6.7.a</string>
+			<key>path</key>
+			<string>TGSDK/libTGSDK.1.6.7.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35D292C2BF49F7CF6D76770BEB80DE79</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>DomobVideoSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/DomobVideoSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3639BB35511FC1F47373B2C982E8AC50</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -460,16 +497,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>39EB531B021D4BF4075FD215A3483D10</key>
+		<key>3A8BB8418332B499A7D36496CCFEB000</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FBAudienceNetwork.framework</string>
 			<key>path</key>
-			<string>IndependentVideoBundle.bundle</string>
+			<string>TGSDK/frameworks/FBAudienceNetwork.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -499,19 +536,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>418D3F5B4FF14B9B11555D62B5355544</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Chartboost.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/Chartboost.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>4657BF1FBC5EABDBA6E6D7B25F199424</key>
 		<dict>
 			<key>children</key>
@@ -536,6 +560,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>4A769C528AB246F3B50409EEB61D88F6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Centrixlink.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/Centrixlink.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4D07FBC5FC736CBC79597B10F77A8AD0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -546,6 +583,32 @@
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-TGSDK_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4FAA543D42B7CC2F737C11B18B154ACC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppTracker.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AppTracker.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>51C48BD4211E2B6C1EFE83A9E79A01B7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppLovinSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AppLovinSDK.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -561,19 +624,6 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>57B14CF43089805D3BA1C5C70666FBBC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MVSDKReward.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/MVSDKReward.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>58D430E6919ABDDA4ACB390A3A25C08B</key>
 		<dict>
@@ -614,39 +664,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>60768E48871798C6F6CC5BE35D61CA44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6BE61D9AAACAB1552CFF3F7E49FA20C8</string>
-				<string>ACB1C78E74CA234397B4C0F88A7479FD</string>
-				<string>C1A60CE3AB42E24836B2E191A1BED9BC</string>
-				<string>CFAAD160431E3BF959401882A8B97284</string>
-				<string>82955D0867FCD3326893DE4D3F038677</string>
-				<string>F8897F8B4CEBA8958D16083A95B9A922</string>
-				<string>B31987C83187431A0F9B9A0D6225052B</string>
-				<string>418D3F5B4FF14B9B11555D62B5355544</string>
-				<string>F2B0550FCA19D25E68C5D9DC2F5FC179</string>
-				<string>805C6C61ECED3DBF7C1FB5643F1E83F5</string>
-				<string>B174383E9228FEF063B4BD6CD3A775E9</string>
-				<string>8395280E7AD3E3647D239BF41DE00390</string>
-				<string>D52BE67707AE40FE10BDCF6DF030EC2B</string>
-				<string>2A3945A603A7E7E6F300374C676D0F71</string>
-				<string>A459C656FCB0C091D69EAD7ECDCB079D</string>
-				<string>FEAC5C170A693921D813E33E4F1AA271</string>
-				<string>57B14CF43089805D3BA1C5C70666FBBC</string>
-				<string>C80BBA185E90A43C08E4FB76DC1CF913</string>
-				<string>151F0818A9F7E53E5EA66AFC6250E1E3</string>
-				<string>89D589848A9FAF3C8A97F8FEE294E104</string>
-				<string>7007C0EDB2CEDFA25CC143B62BEB1745</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>67FF35E0E1B8B4B41C0F6F34E21C44A0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -660,29 +677,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6BE61D9AAACAB1552CFF3F7E49FA20C8</key>
+		<key>6834CF721F35467A303F40239BC2A890</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AdColony.framework</string>
 			<key>path</key>
-			<string>TGSDK/frameworks/AdColony.framework</string>
+			<string>TGUnstartedIcon.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7007C0EDB2CEDFA25CC143B62BEB1745</key>
+		<key>73408703B5AC6F74AAC4A0D1B24ED636</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>VungleSDK.framework</string>
+			<string>wrapper.plug-in</string>
 			<key>path</key>
-			<string>TGSDK/frameworks/VungleSDK.framework</string>
+			<string>IndependentVideoBundle.bundle</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -700,6 +715,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>76970C110D83C7856BE90A3E2CFD11F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_privacy.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>77BC72F8455B4A4A6E6154C952104C7C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -713,14 +739,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>780B25C01187D7E774E245A8D38E1281</key>
+		<key>78F19421BD984F6124AF7AD6B9B653D6</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppnextLib.framework</string>
 			<key>path</key>
-			<string>TGUnstartedIcon.png</string>
+			<string>TGSDK/frameworks/AppnextLib.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -739,6 +767,32 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>7C2D74FF73B5B50327C5822D5AF9F440</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MVSDKReward.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/MVSDKReward.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CB27D104961DEAD137A00E4E96580B6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>VungleSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/VungleSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
@@ -751,45 +805,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805C6C61ECED3DBF7C1FB5643F1E83F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>DomobVideoSDK.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/DomobVideoSDK.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82955D0867FCD3326893DE4D3F038677</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AppTracker.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/AppTracker.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8395280E7AD3E3647D239BF41DE00390</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GoogleMobileAds.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/GoogleMobileAds.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -818,19 +833,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-TGSDK_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89D589848A9FAF3C8A97F8FEE294E104</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UnityAds.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/UnityAds.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -928,7 +930,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>60768E48871798C6F6CC5BE35D61CA44</string>
+				<string>C6E6A7FCFE4FACEEB8CCB88B42DD5891</string>
 				<string>195C8C1EF3F85BC3B4660257CB2E4AE8</string>
 				<string>8CD5732A6FFF69C146703D4F17A67151</string>
 			</array>
@@ -938,6 +940,30 @@
 			<string>TGSDK</string>
 			<key>path</key>
 			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>926B01A025101D17700912E79DA2B83E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>vg_mute_on.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9314E325649215CD7832B15832BFA4B9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MVSDK.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/MVSDK.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -986,14 +1012,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9B59C8AA41033943DD398EC8E4FE912E</key>
+		<key>9DE7E06643E065E6224DFD5E900A2E51</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FMDB.framework</string>
 			<key>path</key>
-			<string>TGStartedIcon.png</string>
+			<string>TGSDK/frameworks/FMDB.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1178,19 +1206,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>A459C656FCB0C091D69EAD7ECDCB079D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MVSDK.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/MVSDK.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>A56D5A18D56830326D0B7C8D8C1A6320</key>
 		<dict>
 			<key>fileRef</key>
@@ -1198,7 +1213,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A64956A1EB2AFB8A065B919B5DF75C63</key>
+		<key>A6963B28B6AE3DCC1AC68CB75A196A27</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1224,66 +1239,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ACB1C78E74CA234397B4C0F88A7479FD</key>
+		<key>B39EFC0051FBA789CF2C854815DB8A8F</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>AppLovinSDK.framework</string>
+			<string>AppnextSDKCore.framework</string>
 			<key>path</key>
-			<string>TGSDK/frameworks/AppLovinSDK.framework</string>
+			<string>TGSDK/frameworks/AppnextSDKCore.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ADAD1209AF6EBB66C95B724D2A213AA7</key>
+		<key>B7B49DFED014C6F2E91BA5C71954D696</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>vg_mute_off.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0907AD49990037946AA562737022AFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>path</key>
-			<string>ChanceAdRes.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B174383E9228FEF063B4BD6CD3A775E9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FMDB.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/FMDB.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B31987C83187431A0F9B9A0D6225052B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>ChanceAdSDK.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/ChanceAdSDK.framework</string>
+			<string>__vungle.db</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1315,17 +1291,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BAFA96ADF061AD3967FC7448A68465F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vg_mute_on.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
 			<key>children</key>
@@ -1339,16 +1304,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C1A60CE3AB42E24836B2E191A1BED9BC</key>
+		<key>C018737890C6CFDAA698CC39E4DE7852</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>AppnextLib.framework</string>
+			<string>Tapjoy.framework</string>
 			<key>path</key>
-			<string>TGSDK/frameworks/AppnextLib.framework</string>
+			<string>TGSDK/frameworks/Tapjoy.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1365,27 +1330,75 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C707CE0FDEBA02EDE3068DFDBE73E343</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vg_cta.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C80BBA185E90A43C08E4FB76DC1CF913</key>
+		<key>C2AFF69D5D3356D06BA613369B462618</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>OneWaySDK.framework</string>
+			<string>Chartboost.framework</string>
 			<key>path</key>
-			<string>TGSDK/frameworks/OneWaySDK.framework</string>
+			<string>TGSDK/frameworks/Chartboost.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C6B998F0AB61E19FDF8524EFA8D270E4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>path</key>
+			<string>TapjoyResources.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C6E6A7FCFE4FACEEB8CCB88B42DD5891</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>ECA4ED66CA48F176161062F6D025586D</string>
+				<string>51C48BD4211E2B6C1EFE83A9E79A01B7</string>
+				<string>78F19421BD984F6124AF7AD6B9B653D6</string>
+				<string>B39EFC0051FBA789CF2C854815DB8A8F</string>
+				<string>4FAA543D42B7CC2F737C11B18B154ACC</string>
+				<string>4A769C528AB246F3B50409EEB61D88F6</string>
+				<string>D5E37746A0229ECDEDF5F925D5466FA6</string>
+				<string>C2AFF69D5D3356D06BA613369B462618</string>
+				<string>35D292C2BF49F7CF6D76770BEB80DE79</string>
+				<string>3A8BB8418332B499A7D36496CCFEB000</string>
+				<string>9DE7E06643E065E6224DFD5E900A2E51</string>
+				<string>C88636EDC2FF4E468ED72B50CECAD519</string>
+				<string>28E91463CBBE5DAA88CD957C87AEBF81</string>
+				<string>34ABD3980C7FBC729B01F16E93635180</string>
+				<string>9314E325649215CD7832B15832BFA4B9</string>
+				<string>DF561E849A6319A08B2377BE3531DB93</string>
+				<string>7C2D74FF73B5B50327C5822D5AF9F440</string>
+				<string>0AE590061922E4EC44DBCF465B28B821</string>
+				<string>C018737890C6CFDAA698CC39E4DE7852</string>
+				<string>1FD25F8634DE0AE3D247937529B1818C</string>
+				<string>7CB27D104961DEAD137A00E4E96580B6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C88636EDC2FF4E468ED72B50CECAD519</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleMobileAds.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/GoogleMobileAds.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1416,6 +1429,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>CD0B25E2E180C88558888D200C04E390</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TGStartedIcon.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
 		<dict>
 			<key>isa</key>
@@ -1428,19 +1452,6 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>CFAAD160431E3BF959401882A8B97284</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AppnextSDKCore.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/AppnextSDKCore.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D1CDECE5BBB2BF6D84D445DD304753ED</key>
 		<dict>
@@ -1553,16 +1564,16 @@
 				<string>18C5760223D942BA6D7D7B551E2F05C8</string>
 			</array>
 		</dict>
-		<key>D52BE67707AE40FE10BDCF6DF030EC2B</key>
+		<key>D5E37746A0229ECDEDF5F925D5466FA6</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>InMobi.framework</string>
+			<string>ChanceAdSDK.framework</string>
 			<key>path</key>
-			<string>TGSDK/frameworks/InMobi.framework</string>
+			<string>TGSDK/frameworks/ChanceAdSDK.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1578,19 +1589,6 @@
 			<string>TGSDK</string>
 			<key>path</key>
 			<string>TGSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D91C1E2628816B5CD8970DD2387E8D9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>path</key>
-			<string>TapjoyResources.bundle</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1615,6 +1613,19 @@
 			<string>Pods-TGSDK_Tests</string>
 			<key>path</key>
 			<string>Target Support Files/Pods-TGSDK_Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF561E849A6319A08B2377BE3531DB93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MVSDKInterstitial.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/MVSDKInterstitial.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1650,6 +1661,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>ECA4ED66CA48F176161062F6D025586D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AdColony.framework</string>
+			<key>path</key>
+			<string>TGSDK/frameworks/AdColony.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>EEA31B9B05DB1FC82A9E9E06A4037D95</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1676,19 +1700,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>F2B0550FCA19D25E68C5D9DC2F5FC179</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>DianjoyVideo.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/DianjoyVideo.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>F70D7054D238E80916AB98975F6924CE</key>
 		<dict>
 			<key>children</key>
@@ -1700,19 +1711,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8897F8B4CEBA8958D16083A95B9A922</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Centrixlink.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/Centrixlink.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1736,27 +1734,43 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FEAC5C170A693921D813E33E4F1AA271</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MVSDKInterstitial.framework</string>
-			<key>path</key>
-			<string>TGSDK/frameworks/MVSDKInterstitial.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEB5B153B722517ABAC2FCE4DC49841C</key>
+		<key>FC2E7DB105CF48FF8E138AA6A58F884D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
 			<key>path</key>
-			<string>vg_privacy.png</string>
+			<string>TGADSDK.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FD5F6C14811E2AF393A7BEDFC1610260</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B7B49DFED014C6F2E91BA5C71954D696</string>
+				<string>3483408C05352BC2468CBC959FA0318B</string>
+				<string>73408703B5AC6F74AAC4A0D1B24ED636</string>
+				<string>C6B998F0AB61E19FDF8524EFA8D270E4</string>
+				<string>FC2E7DB105CF48FF8E138AA6A58F884D</string>
+				<string>CD0B25E2E180C88558888D200C04E390</string>
+				<string>6834CF721F35467A303F40239BC2A890</string>
+				<string>A6963B28B6AE3DCC1AC68CB75A196A27</string>
+				<string>2DB640B9E9D89D5CE38510744B42FE1C</string>
+				<string>0A5B966A33DDE6144EE71FB83B40BA25</string>
+				<string>195B5067F3A1E6192DF240ADE42FF1A3</string>
+				<string>926B01A025101D17700912E79DA2B83E</string>
+				<string>76970C110D83C7856BE90A3E2CFD11F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Assets</string>
+			<key>path</key>
+			<string>Assets</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

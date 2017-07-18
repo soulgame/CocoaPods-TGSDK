@@ -8,167 +8,25 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+#import "CentrixlinkConst.h"
+#import "CentrixlinkProtocol.h"
 #import "CLSLog.h"
-
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class UIViewController;
 
-
-#pragma Delegate 回调字典KEY
-/**
- *  广告Key
- */
-extern NSString* ADInfoKEYADID;
-
-/**
- *  是否是缓存广告
- */
-extern NSString* ADInfoKEYPreloadStatus;
-/**
- *  视频播放状态，true 为广告播放完毕，false为广告跳过
- */
-extern NSString* ADInfoKEYADPlayStatus;
-
-/**
- * 视频广告是否被点击，true 点击，false 未点击
- */
-extern NSString *ADInfoKEYIsClick;
-/**
- *  用于是否插屏广告显示开关， true 为广告播放完毕，false为广告跳过
- */
-extern NSString* ShowADOptionKeyInterstitialAD;
-/**
- *  支持广告的方向
- */
-extern NSString* ShowADOptionKeyOrientations;
-/**
- *  当前App 用户ID，用于激励广告
- */
-extern NSString* ShowADOptionKeyUser;
-/**
- *  只播放预加载广告
- */
-extern NSString* ShowADOptionKeyOnlyPreload;
-/**
- * 自动关闭EndCard页面，true 为广告自动关闭，false为手动关闭
- */
-extern NSString* ShowADOptionKeyAutoCloseADView;
-
-/**
- *  广告位标识
- */
-extern NSString* ShowADOptionKeyPlacement;
-
-/**
- *  其它扩展信息
- */
-extern NSString* ShowADOptionKeyExtraInfoDictionary;
-extern NSString* ShowADOptionKeyExtra1;
-extern NSString* ShowADOptionKeyExtra2;
-extern NSString* ShowADOptionKeyExtra3;
-extern NSString* ShowADOptionKeyExtra4;
-extern NSString* ShowADOptionKeyExtra5;
-extern NSString* ShowADOptionKeyExtra6;
-extern NSString* ShowADOptionKeyExtra7;
-extern NSString* ShowADOptionKeyExtra8;
-
-
-/**
- *   自定义debug输出block
- *
- *  @param message debug 内容
- *  @param level   debug 级别,具体定义
- 
- */
-
-typedef void (^CentrixLinkADDebugBlock)(NSString *message, CLSLogLevel level);
-
-
-@protocol CentrixLinkADDelegate <NSObject>
-
-@required
-/**
- *   广告显示已关闭
- *
- *  @param ADInfo 广告信息及广告播放错误信息
- */
-
-- (void)centrixLinkADDidCloseAD:(NSDictionary *)ADInfo;
-
-@optional
-
-
-- (void)centrixLinkADPreloadADStatusChange:(BOOL)hasPreload;
-
-/**
- *    广告即将显示
- *
- *  @param ADInfo 广告信息
- */
-
-- (void)centrixLinkADWillShowAD:(NSDictionary *)ADInfo;
-
-/**
- *   广告完成显示
- *
- *  @param ADInfo 广告信息
- */
-- (void)centrixLinkADDidShowAD:(NSDictionary *)ADInfo;
-
-/**
- *   广告显示即将关闭
- *   注：当广告有成功点击跳转才被调用
- *  @param ADInfo 广告信息
- */
-- (void)centrixLinkADWillCloseAD:(NSDictionary *)ADInfo;
-
-
-/**
- *   广告视频播放完毕状态
- *
- *  @param ADInfo 广告信息
- */
-- (void)centrixLinkADVideoDidPlayStatus:(NSDictionary *)ADInfo;
-
-
-@end
-
-
-@protocol CentrixLinkSplashADDelegate <NSObject>
-
-@required
-
-
-
-- (void)splashAdClosed:(NSDictionary *)splashADInfo;
-
-
-@optional
-
-- (void)splashSuccessPresentScreen:(NSDictionary *)splashADInfo;
-
-- (void)splashFailPresentScreen:(NSDictionary *)splashADInfo error:(NSError *)error;
-
-- (void)splashAdClicked:(NSDictionary *)splashADInfo;
-
-
-
-@end
+typedef void (^CentrixLinkADDebugCallBack)(NSString *message, CLSLogLevel level);
 
 @interface CentrixlinkAD : NSObject
 
-/**   代理
- *
- */
 @property (nonatomic, weak) id<CentrixLinkADDelegate>delegate;
-
 
 @property (nonatomic, weak) id<CentrixLinkSplashADDelegate>splashADdelegate;
 
-@property (nonatomic, assign) NSInteger fetchDelay;
+
+
+
 /**
  *   单例
  *
@@ -177,26 +35,7 @@ typedef void (^CentrixLinkADDebugBlock)(NSString *message, CLSLogLevel level);
 
 + (CentrixlinkAD *)sharedInstance;
 
-
-
 + (NSString *)SDKVersion;
-/**
- *   启动SDK方法
- *
- *  @param appID        申请的APPID KEY 字符串
- *  @param AppSecretKey 申请的AppSecretkey 字符串
- *  @param error        成功返回nil, 失败返回Error信息
- */
-- (BOOL)startWithAppID:(NSString *)appID AppSecretKey:(NSString *)AppSecretKey error:(NSError * __autoreleasing*)error;
-
-
-/**
- *   检查当前是否可以显示广告包括实时广告及预加载广告
- *   每次播放广告前请进行判断，防止无广告显示。
- *   @return true 可以播放广告，false 暂时不能播放广告；
- */
-- (BOOL)isShowableAD;
-
 
 /**
  *  是否有效的预加载广告
@@ -207,7 +46,30 @@ typedef void (^CentrixLinkADDebugBlock)(NSString *message, CLSLogLevel level);
 
 
 /**
- *   播放广告
+ *  设置是否跟随应用方向
+ *
+ *  @param enable default = NO;
+ */
+- (void)setEnableFollowAppOrientation:(BOOL)enable;
+
+/**
+ *  开屏广告
+ */
+- (BOOL)playSplashAD;
+
+
+
+/**
+ *  调整插屏的布局 (注意：所有参数均为百分比，取值范围:[0 1])
+ *  @param top 上边距
+ *  @param left 左边距
+ *  @param videoScale 短边占比(例如：在竖屏模式下，指的是指定区域的宽占整个屏幕宽的比例，反之横屏模式下就是指定区域的高占整个屏幕高的比例)
+ *  @return YES:可以调整、 NO:不可以调整
+ */
+- (BOOL)resizeADWithTop:(float)top left:(float)left videoScale:(float)videoScale;
+
+/**
+ *   播放视频全屏广告
  *
  *  @param ViewController 当前显示页面ViewController对象
  *  @param options        自定义上传跟此次广告播放相关数据，便于跟踪广告及广告激励
@@ -215,13 +77,20 @@ typedef void (^CentrixLinkADDebugBlock)(NSString *message, CLSLogLevel level);
  *
  *  @return true 成功播放，false 播放失败
  */
-- (BOOL)showAD:(UIViewController *)ViewController options:(NSDictionary *)options error:(NSError * __autoreleasing*)error;
+- (BOOL)playAD:(UIViewController *)ViewController options:(NSDictionary * __nullable)options error:(NSError * __autoreleasing*)error;
 
 
+- (BOOL)playUnFullScreenAD:(UIViewController *)ViewController options:(NSDictionary * __nullable)options error:(NSError * __autoreleasing*)error;
 
-- (BOOL)showSplashAD;
 
-
+/**
+ *   启动SDK方法
+ *
+ *  @param appID        申请的APPID KEY 字符串
+ *  @param AppSecretKey 申请的AppSecretkey 字符串
+ *  @param error        成功返回nil, 失败返回Error信息
+ */
+- (BOOL)startWithAppID:(NSString *)appID AppSecretKey:(NSString *)AppSecretKey error:(NSError * __autoreleasing*)error;
 
 /**
  *   DeBug开关显示
@@ -236,7 +105,7 @@ typedef void (^CentrixLinkADDebugBlock)(NSString *message, CLSLogLevel level);
  *
  *  @param debugBlock debugBlock，若不设置则在Xcode debug中显示，
  */
-- (void)setDebugBlock:(CentrixLinkADDebugBlock)debugBlock;
+- (void)setDebugCallBack:(CentrixLinkADDebugCallBack)callBack;
 
 @end
 

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define kTGSDKServiceResultErrorInfo @"kTGSDKServiceResultErrorInfo"
 typedef void (^TGSDKServiceResultCallBack)(BOOL success, id _Nullable tag, NSDictionary* _Nullable result);
@@ -24,6 +25,15 @@ typedef enum {
     TGADType3rdAward,
     TGAdType3rdNative
 }TGAdType;
+
+typedef enum {
+    TGADIsOK,
+    TGSDKNotInitialize,
+    TGADNotPreload,
+    TGADConfigNotFound,
+    TGADIsABTest,
+    TGADNotReady
+} TGAdStatus;
 
 
 @protocol TGPreloadADDelegate <NSObject>
@@ -139,11 +149,16 @@ typedef enum {
 +(void) preloadAdOnlyWIFI:(id<TGPreloadADDelegate> _Nullable)delegate;
 
 +(BOOL)couldShowAd:(NSString* _Nonnull)scene;
++(BOOL)couldShow:(NSString* _Nonnull)scene Ad:(NSString* _Nullable) sdk;
++(TGAdStatus) getAdStatus:(NSString* _Nonnull)scene;
 
 /*当开始给用户显示广告的时候调用，返回值如果是NSString，则是预加载没有完成或者没有调用预加载，如果返回值是NSData，则是图片的数据。同时发送counter cp_adview*/
 +(void)setADDelegate:(id<TGADDelegate> _Nullable)delegate;
 +(void)setRewardVideoADDelegate:(id<TGRewardVideoADDelegate> _Nullable)delegate;
 +(void)showAd: (NSString* _Nonnull)scene;
++(void)show:(NSString* _Nonnull) scene Ad:(NSString* _Nullable) sdk;
++(void)show:(NSString* _Nonnull) scene WithViewController:(UIViewController* _Nullable) view;
++(void)show:(NSString* _Nonnull) scene WithViewController:(UIViewController* _Nullable) view AndAd:(NSString* _Nullable) sdk;
 +(void)reportAdRejected:(NSString* _Nonnull)sceneId;
 +(void)showAdScene:(NSString* _Nonnull)scene;
 
@@ -168,5 +183,6 @@ typedef enum {
 
 /**************************   测试专用  ******************************/
 + (void)showTestView:(NSString* _Nonnull)scene;
++ (void)showTestView:(NSString * _Nonnull)scene WithViewController:(UIViewController* _Nullable) view;
 
 @end

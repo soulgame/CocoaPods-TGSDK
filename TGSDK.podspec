@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGSDK'
-  s.version          = '1.6.6'
+  s.version          = '1.6.7'
   s.summary          = 'Yomob Ad SDK'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Yomob Ad SDK.
 
   s.homepage         = 'https://yomob.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liyin' => 'liy@soulgame.com' }
+  s.author           = { 'yomob' => 'support@yomob.com' }
   s.source           = { :git => 'https://github.com/soulgame/CocoaPods-TGSDK.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
@@ -35,6 +35,6 @@ Yomob Ad SDK.
   s.public_header_files = 'TGSDK/Classes/include/TGSDK/TGSDK.h'
   s.library = 'stdc++', 'sqlite3', 'xml2', 'z'
   s.vendored_libraries = "TGSDK/libTGSDK.#{s.version}.a"
-  s.frameworks = 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreTelephony', 'EventKit', 'iAd', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'WebKit', 'JavaScriptCore', 'GameController', 'CoreMotion'
-  s.vendored_frameworks = 'TGSDK/frameworks/AdColony.framework', 'TGSDK/frameworks/AppLovinSDK.framework', 'TGSDK/frameworks/ChanceAdSDK.framework', 'TGSDK/frameworks/Chartboost.framework', 'TGSDK/frameworks/FMDB.framework', 'TGSDK/frameworks/UnityAds.framework', 'TGSDK/frameworks/VungleSDK.framework', 'TGSDK/frameworks/DomobVideoSDK.framework', 'TGSDK/frameworks/DianjoyVideo.framework', 'TGSDK/frameworks/AppTracker.framework', 'TGSDK/frameworks/MVSDK.framework', 'TGSDK/frameworks/MVSDKInterstitial.framework', 'TGSDK/frameworks/MVSDKReward.framework', 'TGSDK/frameworks/OneWaySDK.framework', 'TGSDK/frameworks/AppnextSDKCore.framework', 'TGSDK/frameworks/AppnextLib.framework', 'TGSDK/frameworks/InMobi.framework', 'TGSDK/frameworks/GoogleMobileAds.framework', 'TGSDK/frameworks/Tapjoy.framework', 'TGSDK/frameworks/Centrixlink.framework'
+  s.frameworks = 'Accelerate', 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'CoreMedia', 'CoreMotion', 'EventKit', 'GLKit', 'iAd', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'WebKit', 'JavaScriptCore'
+  s.vendored_frameworks = 'TGSDK/frameworks/AdColony.framework', 'TGSDK/frameworks/AppLovinSDK.framework', 'TGSDK/frameworks/AppTracker.framework', 'TGSDK/frameworks/AppnextLib.framework', 'TGSDK/frameworks/AppnextSDKCore.framework', 'TGSDK/frameworks/Centrixlink.framework', 'TGSDK/frameworks/ChanceAdSDK.framework', 'TGSDK/frameworks/Chartboost.framework', 'TGSDK/frameworks/DomobVideoSDK.framework', 'TGSDK/frameworks/FBAudienceNetwork.framework', 'TGSDK/frameworks/FMDB.framework', 'TGSDK/frameworks/GoogleMobileAds.framework', 'TGSDK/frameworks/InMobi.framework', 'TGSDK/frameworks/MVSDK.framework', 'TGSDK/frameworks/MVSDKInterstitial.framework', 'TGSDK/frameworks/MVSDKReward.framework', 'TGSDK/frameworks/OneWaySDK.framework', 'TGSDK/frameworks/Tapjoy.framework', 'TGSDK/frameworks/UnityAds.framework', 'TGSDK/frameworks/VungleSDK.framework'
 end

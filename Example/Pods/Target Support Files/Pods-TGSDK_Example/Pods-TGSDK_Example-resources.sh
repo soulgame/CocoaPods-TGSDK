@@ -91,6 +91,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
   install_resource "../../TGSDK/Assets/IndependentVideoBundle.bundle"
   install_resource "../../TGSDK/Assets/TapjoyResources.bundle"
+  install_resource "../../TGSDK/Assets/TGADSDK.bundle"
   install_resource "../../TGSDK/Assets/UnityAds.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -105,6 +106,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
   install_resource "../../TGSDK/Assets/IndependentVideoBundle.bundle"
   install_resource "../../TGSDK/Assets/TapjoyResources.bundle"
+  install_resource "../../TGSDK/Assets/TGADSDK.bundle"
   install_resource "../../TGSDK/Assets/UnityAds.bundle"
 fi
 

@@ -1,5 +1,5 @@
 
-# Get Start For iOS 1.6.6
+# Get Start For iOS 1.6.7
 
 ## 1、导入 TGSDK 到工程
 
@@ -21,7 +21,7 @@ use_frameworks!
 
 target 'MyApp' do
   source 'https://github.com/soulgame/Soulgame-Specs.git'
-  pod 'TGSDK', '~> 1.6.6'
+  pod 'TGSDK', '~> 1.6.7'
 end
 ```
 
