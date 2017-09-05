@@ -21,7 +21,7 @@ use_frameworks!
 
 target 'MyApp' do
   source 'https://github.com/soulgame/Soulgame-Specs.git'
-  pod 'TGSDK', '~> 1.6.7'
+  pod 'TGSDK', '~> 1.6.8'
 end
 ```
 
