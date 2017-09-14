@@ -163,7 +163,7 @@ typedef NS_ENUM(NSInteger, MVAdCategory) {
  @discussion The current ViewController of display ad. 
  the "ViewController" parameters are assigned as calling the init or Registerview method
  */
-@property (nonatomic, weak) UIViewController *  viewController;
+@property (nonatomic, weak) UIViewController * _Nullable  viewController;
 
 
 /*!
