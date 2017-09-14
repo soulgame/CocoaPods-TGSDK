@@ -5,7 +5,7 @@
 //  Created by Jomy on 15/9/28.
 //
 
-#define MVSDKVersion @"2.6.0"
+#define MVSDKVersion @"2.7.0"
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
