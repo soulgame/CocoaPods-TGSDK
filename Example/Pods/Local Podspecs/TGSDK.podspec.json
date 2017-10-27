@@ -1,6 +1,6 @@
 {
   "name": "TGSDK",
-  "version": "1.6.8",
+  "version": "1.6.9",
   "summary": "Yomob Ad SDK",
   "description": "Yomob Ad SDK.",
   "homepage": "https://yomob.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/soulgame/CocoaPods-TGSDK.git",
-    "tag": "1.6.8"
+    "tag": "1.6.9"
   },
   "platforms": {
     "ios": "8.0"
@@ -29,7 +29,7 @@
     "xml2",
     "z"
   ],
-  "vendored_libraries": "TGSDK/libTGSDK.1.6.8.a",
+  "vendored_libraries": "TGSDK/libTGSDK.1.6.9.a",
   "frameworks": [
     "Accelerate",
     "AdSupport",
