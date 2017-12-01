@@ -1,6 +1,6 @@
 {
   "name": "TGSDK",
-  "version": "1.6.9",
+  "version": "1.7.0",
   "summary": "Yomob Ad SDK",
   "description": "Yomob Ad SDK.",
   "homepage": "https://yomob.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/soulgame/CocoaPods-TGSDK.git",
-    "tag": "1.6.9"
+    "tag": "1.7.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -29,7 +29,7 @@
     "xml2",
     "z"
   ],
-  "vendored_libraries": "TGSDK/libTGSDK.1.6.9.a",
+  "vendored_libraries": "TGSDK/libTGSDK.1.7.0.a",
   "frameworks": [
     "Accelerate",
     "AdSupport",
@@ -42,9 +42,11 @@
     "CoreMedia",
     "CoreMotion",
     "EventKit",
+    "Foundation",
     "GameController",
     "GLKit",
     "iAd",
+    "ImageIO",
     "MediaPlayer",
     "MessageUI",
     "MobileCoreServices",
@@ -54,7 +56,8 @@
     "StoreKit",
     "SystemConfiguration",
     "WebKit",
-    "JavaScriptCore"
+    "JavaScriptCore",
+    "UIKit"
   ],
   "vendored_frameworks": [
     "TGSDK/frameworks/AdColony.framework",
@@ -68,7 +71,7 @@
     "TGSDK/frameworks/FBAudienceNetwork.framework",
     "TGSDK/frameworks/FMDB.framework",
     "TGSDK/frameworks/GoogleMobileAds.framework",
-    "TGSDK/frameworks/InMobi.framework",
+    "TGSDK/frameworks/IronSource.framework",
     "TGSDK/frameworks/MVSDK.framework",
     "TGSDK/frameworks/MVSDKInterstitial.framework",
     "TGSDK/frameworks/MVSDKReward.framework",
