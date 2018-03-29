@@ -79,7 +79,6 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "../../TGSDK/Assets/TGStartedIcon.png"
   install_resource "../../TGSDK/Assets/TGUnstartedIcon.png"
-  install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
   install_resource "../../TGSDK/Assets/TapjoyResources.bundle"
   install_resource "../../TGSDK/Assets/TGADSDK.bundle"
   install_resource "../../TGSDK/Assets/UnityAds.bundle"
@@ -87,7 +86,6 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../TGSDK/Assets/TGStartedIcon.png"
   install_resource "../../TGSDK/Assets/TGUnstartedIcon.png"
-  install_resource "../../TGSDK/Assets/ChanceAdRes.bundle"
   install_resource "../../TGSDK/Assets/TapjoyResources.bundle"
   install_resource "../../TGSDK/Assets/TGADSDK.bundle"
   install_resource "../../TGSDK/Assets/UnityAds.bundle"
