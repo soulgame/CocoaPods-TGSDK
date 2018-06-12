@@ -4,6 +4,7 @@
 //
 //  Created by CharkZhang on 2016/11/8.
 //
+#define MVInterstitialSDKVersion @"3.8.0"
 
 #import <Foundation/Foundation.h>
 

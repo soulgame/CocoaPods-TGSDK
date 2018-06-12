@@ -21,6 +21,18 @@ typedef NS_ENUM (NSInteger, MVErrorCode) {
     kMVErrorCodeRewardVideoFailedToLoadPlayableURLReadyNO      = 129300066,
     kMVErrorCodeRewardVideoFailedToLoadPlayableURLInvalid      = 129300067,
     kMVErrorCodeRewardVideoFailedToLoadMd5Invalid              = 129300068,
+    KMVErrorCodeEmptyUnitId                                    = 129300001,
+
+    kMVErrorCodeNoAds                                          = 12930001,
+    kMVErrorCodeConnectionLost                                 = 12930002,
+    kMVErrorCodeURLisEmpty                                     = 12930003,
+    kMVErrorCodeNoAdsAvailableToPlay                           = 12930004,
+    kMVErrorCodeFailedToPlay                                   = 12930005,
+    kMVErrorCodeFailedToLoad                                   = 12930006,
+    kMVErrorCodeDailyLimit                                     = 12930007,
+    kMVErrorCodeLoadAdsTimeOut                                 = 12930008,
+
+    kMVErrorCodeNoSupportPopupWindow                           = 12930009,
 
 };
 

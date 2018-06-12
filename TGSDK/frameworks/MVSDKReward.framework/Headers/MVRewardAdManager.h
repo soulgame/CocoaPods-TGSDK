@@ -4,15 +4,10 @@
 //
 //  Created by yujinping on 16/4/12.
 //
+#define MVRewardVideoSDKVersion @"3.8.0"
 
 #import <Foundation/Foundation.h>
 #import <MVSDK/MVRewardAdInfo.h>
-
-#define kMVErrorCodeNoAdsAvailableToPlay          12930004
-#define kMVErrorCodeFailedToPlay                  12930005
-#define kMVErrorCodeFailedToLoad                  12930006
-#define kMVErrorCodeDailyLimit                    12930007
-#define kMVErrorCodeLoadAdsTimeOut                12930008
 
 #pragma mark - MVRewardAdManagerDelegate
 
@@ -80,7 +75,6 @@
 
 
 #pragma mark - MVRewardAdManager
-
 
 @interface MVRewardAdManager : NSObject
 

@@ -5,7 +5,7 @@
 //  Created by Jomy on 15/9/28.
 //
 
-#define MVSDKVersion @"3.3.5"
+#define MVSDKVersion @"3.8.0"
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -16,6 +16,7 @@
 #import <MVSDK/MVNativeScrollView.h>
 #import <MVSDK/MVMediaView.h>
 #import <MVSDK/MVUserInfo.h>
+
 
 @interface MVSDK : NSObject
 
@@ -28,7 +29,9 @@
 + (nonnull instancetype)sharedInstance;
 
 /**
- * Set the AppID and ApiKey. This must be called before any ads are requested.
+ * Set the AppID and ApiKey.
+ *  This must be called after set the authorization of user privacy information collection if you need to keep GDPR terms.
+ *  This must be called before any ads are requested .
  *
  * @param appID  T application Id registered on the our portal.
  * @param apiKey The API Key generated on the our Portal.
@@ -121,6 +124,38 @@
 
 - (void)setUserInfo:(nonnull MVUserInfo *)userInfo;
 
+
+
+/**
+ *
+ @method Set user GDPR authorization information
+ 
+ @abstract According to the GDPR, this method must be called before "setAppID: ApiKey:", or by default will collect user information;
+ 
+ @param type The type of the data that you want to configure.
+ 
+ @param agree whether this type of data should be collect.
+ */
+- (void)setUserPrivateInfoType:(MVUserPrivateType)type agree:(BOOL)agree;
+
+/**
+ *
+ @method
+ 
+ @abstract You can get all status for current 'MVUserPrivateType' by using this method.
+ */
+- (MVUserPrivateTypeInfo *_Nonnull)userPrivateInfo;
+
+/**
+ *
+ @method Show the privacy authorization tips view
+ 
+ @abstract This method must be called before "setAppID: ApiKey:", Or by default will collect user information;
+ Authorization tips view is added upon the "window”, don't cover it.
+ @param block result block.
+ */
+
+- (void)showUserPrivateInfoTips:(MVUserPrivateInfoTipsResultBlock _Nonnull )block;
 
 
 @end

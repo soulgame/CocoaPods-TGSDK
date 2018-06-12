@@ -5,9 +5,6 @@
 //  Created by Jomy on 15/10/14.
 //
 
-#define kMVErrorCodeNoAds          12930001
-#define kMVErrorCodeConnectionLost 12930002
-#define kMVErrorCodeURLisEmpty     12930003
 #import "MVCampaign.h"
 
 @class MVNativeAdManager;

@@ -20,7 +20,6 @@
 - (void) adClicked:(AppnextAd *)ad;
 - (void) adUserWillLeaveApplication:(AppnextAd *)ad;
 - (void) adError:(AppnextAd *)ad error:(NSString *)error;
-
 @end
 
 @protocol AppnextNativeAdDelegate <AppnextAdDelegate>

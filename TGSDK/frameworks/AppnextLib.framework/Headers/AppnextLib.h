@@ -17,6 +17,7 @@
 #import <AppnextSDKCore/AppnextAd.h>
 #import <AppnextSDKCore/AppnextAdConfiguration.h>
 #import <AppnextSDKCore/AppnextAdData.h>
+#import <AppnextSDKCore/AppnextError.h>
 
 #import <AppnextLib/AppnextSDKApi.h>
 
@@ -30,3 +31,4 @@
 #import <AppnextLib/AppnextFullScreenVideoAdConfiguration.h>
 #import <AppnextLib/AppnextRewardedVideoAdConfiguration.h>
 #import <AppnextLib/AppnextRewardedServerSidePostbackParams.h>
+#import <AppnextLib/AppnextBannerView.h>

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGSDK'
-  s.version          = '1.7.2'
+  s.version          = '1.8.0'
   s.summary          = 'Yomob Ad SDK'
 
 # This description is used to generate tags and improve search results.
@@ -37,5 +37,5 @@ Yomob Ad SDK.
   s.library = 'stdc++', 'sqlite3', 'xml2', 'z'
   s.vendored_libraries = "TGSDK/libTGSDK.#{s.version}.a"
   s.frameworks = 'Accelerate', 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'CoreMedia', 'CoreMotion', 'EventKit', 'Foundation', 'GameController', 'GLKit', 'iAd', 'ImageIO', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'WatchConnectivity', 'WebKit', 'JavaScriptCore', 'UIKit'
-  s.vendored_frameworks = 'TGSDK/frameworks/AdColony.framework', 'TGSDK/frameworks/AppLovinSDK.framework', 'TGSDK/frameworks/AppnextLib.framework', 'TGSDK/frameworks/AppnextSDKCore.framework', 'TGSDK/frameworks/Centrixlink.framework', 'TGSDK/frameworks/Chartboost.framework', 'TGSDK/frameworks/FBAudienceNetwork.framework', 'TGSDK/frameworks/FMDB.framework', 'TGSDK/frameworks/GDTMobSDK.framework', 'TGSDK/frameworks/GoogleMobileAds.framework', 'TGSDK/frameworks/IronSource.framework', 'TGSDK/frameworks/MVSDK.framework', 'TGSDK/frameworks/MVSDKInterstitial.framework', 'TGSDK/frameworks/MVSDKReward.framework', 'TGSDK/frameworks/Tapjoy.framework', 'TGSDK/frameworks/UnityAds.framework', 'TGSDK/frameworks/VungleSDK.framework'
+  s.vendored_frameworks = 'TGSDK/frameworks/AdColony.framework', 'TGSDK/frameworks/AppLovinSDK.framework', 'TGSDK/frameworks/AppnextLib.framework', 'TGSDK/frameworks/AppnextSDKCore.framework', 'TGSDK/frameworks/CHAMoatMobileAppKit.framework', 'TGSDK/frameworks/Chartboost.framework', 'TGSDK/frameworks/FBAudienceNetwork.framework', 'TGSDK/frameworks/FMDB.framework', 'TGSDK/frameworks/GoogleMobileAds.framework', 'TGSDK/frameworks/IronSource.framework', 'TGSDK/frameworks/MVSDK.framework', 'TGSDK/frameworks/MVSDKInterstitial.framework', 'TGSDK/frameworks/MVSDKInterstitialVideo.framework', 'TGSDK/frameworks/MVSDKReward.framework', 'TGSDK/frameworks/Tapjoy.framework', 'TGSDK/frameworks/UnityAds.framework', 'TGSDK/frameworks/VungleSDK.framework'
 end

@@ -200,4 +200,9 @@ typedef enum {
 + (void)showTestView:(NSString* _Nonnull)scene;
 + (void)showTestView:(NSString * _Nonnull)scene WithViewController:(UIViewController* _Nullable) view;
 
+/**************************  GDPR  *********************************/
++ (NSString* _Nonnull)getUserGDPRConsentStatus;
++ (void)setUserGDPRConsentStatus:(nonnull NSString*)status;
++ (NSString* _Nonnull)getIsAgeRestrictedUser;
++ (void)setIsAgeRestrictedUser:(NSString* _Nonnull)yesorno;
 @end
