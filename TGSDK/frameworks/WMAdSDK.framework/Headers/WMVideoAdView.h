@@ -49,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
  materialMeta 物料信息
  */
 @property (nonatomic, strong, readwrite, nullable) WMMaterialMeta *materialMeta;
+@property (nonatomic, assign) BOOL isCellVideo;
 
 - (instancetype)initWithMaterial:(WMMaterialMeta *)materialMeta;
 

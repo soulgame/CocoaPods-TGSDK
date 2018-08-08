@@ -33,6 +33,12 @@
  */
 - (void)player:(WMPlayer *)player recognizeTapGesture:(UITapGestureRecognizer *)gesture;
 
+
+/**
+ * 播放器播放过程中视图被点击
+ */
+- (void)playerTouchesBegan:(WMPlayer *)player;
+
 @end
 
 @interface WMPlayer : NSObject

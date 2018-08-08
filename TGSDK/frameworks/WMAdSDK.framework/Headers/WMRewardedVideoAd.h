@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface WMRewardedVideoAd : NSObject
 @property (nonatomic, strong) WMRewardedVideoModel *rewardedVideoModel;
 @property (nonatomic, weak, nullable) id<WMRewardedVideoAdDelegate> delegate;
+/**
+ 物料有效 数据不为空且没有展示过为 YES, 重复展示不计费.
+ */
 @property (nonatomic, getter=isAdValid, readonly) BOOL adValid;
 
 - (instancetype)initWithSlotID:(NSString *)slotID rewardedVideoModel:(WMRewardedVideoModel *)model;

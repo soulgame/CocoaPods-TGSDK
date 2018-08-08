@@ -330,17 +330,23 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-TGSDK_Example/Pods-TGSDK_Example-resources.sh",
 				"${PODS_ROOT}/../../TGSDK/Assets/TGStartedIcon.png",
 				"${PODS_ROOT}/../../TGSDK/Assets/TGUnstartedIcon.png",
+				"${PODS_ROOT}/../../TGSDK/Assets/DydAdSdk.bundle",
 				"${PODS_ROOT}/../../TGSDK/Assets/TapjoyResources.bundle",
 				"${PODS_ROOT}/../../TGSDK/Assets/TGADSDK.bundle",
 				"${PODS_ROOT}/../../TGSDK/Assets/UnityAds.bundle",
+				"${PODS_ROOT}/../../TGSDK/Assets/WMAdSDK.bundle",
+				"${PODS_ROOT}/../../TGSDK/Assets/ZplayMuteListener.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TGStartedIcon.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TGUnstartedIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DydAdSdk.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TapjoyResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TGADSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UnityAds.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WMAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZplayMuteListener.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
