@@ -1,5 +1,5 @@
 
-# Get Start For iOS 1.8.0
+# Get Start For iOS 1.8.1
 
 ## 1、导入 TGSDK 到工程
 
@@ -13,12 +13,6 @@
 pod repo add soulgame https://github.com/soulgame/Soulgame-Specs.git
 ```
 
-如果访问 GitHub 网络并不通畅的情况下可以考虑使用国内 Coding 的镜像
-
-```
-pod repo add yomob git@git.coding.net:yomob-ad-sdk/yomob-cocoapods-specs.git
-```
-
 然后将 TGSDK 作为依赖引入你的项目
 
 ```
@@ -27,9 +21,7 @@ use_frameworks!
 
 target 'MyApp' do
   source 'https://github.com/soulgame/Soulgame-Specs.git'
-  # 如果访问 GitHub 网络并不通畅的情况下可以考虑使用国内 Coding 的镜像
-  # source 'git@git.coding.net:yomob-ad-sdk/yomob-cocoapods-specs.git'
-  pod 'TGSDK', '~> 1.8.0'
+  pod 'TGSDK', '~> 1.8.1'
 end
 ```
 

@@ -94,16 +94,22 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TGStartedIcon.png"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TGUnstartedIcon.png"
+  install_resource "${PODS_ROOT}/../../TGSDK/Assets/DydAdSdk.bundle"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TapjoyResources.bundle"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TGADSDK.bundle"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/UnityAds.bundle"
+  install_resource "${PODS_ROOT}/../../TGSDK/Assets/WMAdSDK.bundle"
+  install_resource "${PODS_ROOT}/../../TGSDK/Assets/ZplayMuteListener.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TGStartedIcon.png"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TGUnstartedIcon.png"
+  install_resource "${PODS_ROOT}/../../TGSDK/Assets/DydAdSdk.bundle"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TapjoyResources.bundle"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/TGADSDK.bundle"
   install_resource "${PODS_ROOT}/../../TGSDK/Assets/UnityAds.bundle"
+  install_resource "${PODS_ROOT}/../../TGSDK/Assets/WMAdSDK.bundle"
+  install_resource "${PODS_ROOT}/../../TGSDK/Assets/ZplayMuteListener.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

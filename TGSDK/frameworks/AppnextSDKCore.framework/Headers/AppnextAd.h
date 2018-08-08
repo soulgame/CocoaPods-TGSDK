@@ -50,7 +50,6 @@
 - (NSString *) getCategories;
 - (void) setPostback:(NSString *)postback;
 - (NSString *) getPostback;
-- (void) setButtonText:(NSString *)buttonText;
 - (NSString *) getButtonText;
 - (void) setButtonColor:(NSString *)buttonColor;
 - (NSString *) getButtonColor;

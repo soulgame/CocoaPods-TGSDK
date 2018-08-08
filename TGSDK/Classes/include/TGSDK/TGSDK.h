@@ -14,7 +14,7 @@ typedef void (^TGSDKServiceResultCallBack)(BOOL success, id _Nullable tag, NSDic
 
 typedef enum {
     TGAdPlatformTG,
-}TGAdPlatform;
+} TGAdPlatform;
 
 typedef enum {
     TGAdTypeNone,
@@ -24,8 +24,15 @@ typedef enum {
     TGAdType3rdVideo,
     TGADType3rdAward,
     TGAdType3rdNative,
-    TGAdType3rdInteract
-}TGAdType;
+    TGAdType3rdInteract,
+    TGAdType3rdBanner
+} TGAdType;
+
+typedef enum {
+    TGBannerNormal,
+    TGBannerLarge,
+    TGBannerMediumRectangle
+} TGBannerType;
 
 typedef enum {
     TGADIsOK,
@@ -34,7 +41,8 @@ typedef enum {
     TGADConfigNotFound,
     TGADIsABTest,
     TGADNotReady,
-    TGADDevicePowerIsLow
+    TGADDevicePowerIsLow,
+    TGADNoNetwork
 } TGAdStatus;
 
 typedef enum {
@@ -77,6 +85,18 @@ typedef enum {
 - (void) onADAwardSuccess:(NSString* _Nonnull)result;
 
 - (void) onADAwardFailed:(NSString* _Nonnull)result WithError:(NSError* _Nullable)error;
+
+@end
+
+@protocol TGBannerADDelegate <NSObject>
+@optional
+- (void) onBanner:(NSString* _Nonnull)scene Loaded:(NSString* _Nonnull)result;
+
+- (void) onBanner:(NSString* _Nonnull)scene Failed:(NSString* _Nonnull)result WithError:(NSError* _Nullable)error;
+
+- (void) onBanner:(NSString* _Nonnull)scene Click:(NSString* _Nonnull)result;
+
+- (void) onBanner:(NSString* _Nonnull)scene Close:(NSString* _Nonnull)result;
 
 @end
 
@@ -169,6 +189,10 @@ typedef enum {
 +(void)show:(NSString* _Nonnull) scene WithViewController:(UIViewController* _Nullable) view AndAd:(NSString* _Nullable) sdk;
 +(void)reportAdRejected:(NSString* _Nonnull)sceneId;
 +(void)showAdScene:(NSString* _Nonnull)scene;
+/*banner类型广告专用*/
++(void)setBannerDelegate:(id<TGBannerADDelegate> _Nullable)delegate;
++(void)setBanner:(NSString*)scene Config:(TGBannerType)type x:(float)x y:(float)y width:(float)width height:(float)height Interval:(int)interval;
++(void)closeBanner:(NSString*)scene;
 
 +(NSString* _Nullable)getCPImagePath:(NSString* _Nonnull)scene;
 +(void)showCPView:(NSString* _Nonnull)scene;
