@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *sceneInput;
 @property (weak, nonatomic) SpinnerView *sceneSpinner;
+@property (strong, nonatomic) NSMutableDictionary *sceneMap;
 
 @end
 
@@ -77,7 +78,7 @@
 }
 
 - (IBAction)onShowAd:(id)sender {
-    NSString *sceneid = [[self sceneSpinner] textField].text;
+    NSString *sceneid = [[self sceneMap] objectForKey:[[self sceneSpinner] textField].text];
     if ([TGSDK couldShowAd:sceneid]) {
         if ([[UIDevice currentDevice].systemVersion floatValue] < 8.0) {
             [TGSDK showAd:sceneid];
@@ -106,7 +107,7 @@
     }
 }
 - (IBAction)onShowTestView:(id)sender {
-    NSString *sceneid = [[self sceneSpinner] textField].text;
+    NSString *sceneid = [[self sceneMap] objectForKey:[[self sceneSpinner] textField].text];
     [TGSDK showTestView:sceneid];
 }
 
@@ -127,7 +128,7 @@
     });
 }
 - (IBAction)closeBanner:(id)sender {
-    NSString *sceneid = [[self sceneSpinner] textField].text;
+    NSString *sceneid = [[self sceneMap] objectForKey:[[self sceneSpinner] textField].text];
     [TGSDK closeBanner:sceneid];
 }
     
@@ -150,12 +151,15 @@
     if (result && [result length] > 0) {
         dispatch_async(dispatch_get_main_queue(), ^{
             NSArray *sceneArray = [result componentsSeparatedByString:@","];
-            [[self sceneSpinner] setTableArray:sceneArray];
-            [[[self sceneSpinner] textField] setPlaceholder:@"Select a Scene ID"];
-            [[self sceneSpinner] refresh];
+            [self setSceneMap:[NSMutableDictionary dictionaryWithCapacity:[sceneArray count]]];
             for (NSString* sid in sceneArray) {
                 [TGSDK showAdScene:sid];
+                [[self sceneMap] setObject:sid
+                                    forKey:[NSString stringWithFormat:@"%@(%@)", [TGSDK getSceneNameById:sid], [sid substringToIndex:4]]];
             }
+            [[self sceneSpinner] setTableArray:[[self sceneMap] allKeys]];
+            [[[self sceneSpinner] textField] setPlaceholder:@"Select a Scene ID"];
+            [[self sceneSpinner] refresh];
         });
     }
 }

@@ -200,6 +200,7 @@ typedef enum {
 +(void)reportCPClose:(NSString* _Nonnull)scene;
 
 +(nullable id) parameterFromAdScene:(nonnull NSString*)scene WithKey:(nonnull NSString*)key;
++(nullable NSString*) getSceneNameById:(nonnull NSString*)scene;
 
 /*自定义用户数据，主要用于S2S，将自定义用户数据发送给客户服务器用于标示用户*/
 +(void)setCustomUserData:(NSString* _Nullable)userData;

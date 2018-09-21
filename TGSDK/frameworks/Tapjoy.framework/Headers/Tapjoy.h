@@ -13,6 +13,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TapjoyConnectConstants.h"
+#import "TapjoyAuctionConstants.h"
 #import "TJPlacement.h"
 
 #define TJC_DEPRECATION_WARNING(VERSION) __attribute__((deprecated("Go to dev.tapjoy.com for instructions on how to fix this warning")))
@@ -117,6 +118,12 @@ typedef void (^networkCompletion)(BOOL success, NSError *error);
  * @return URL of Tapjoy support web page for specified currency
  */
 + (NSString*)getSupportURL:(NSString*)currencyID;
+
+/**
+ * This method returns a user token for programmatic mediation.
+ *
+ */
++ (NSString*)getUserToken;
 
 /**
  *

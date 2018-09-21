@@ -232,4 +232,8 @@ typedef enum TJCActionRequestTypeEnum {
 
 @property (nonatomic, copy) NSString *adapterVersion;
 
+/** Programmatic mediation */
+@property (nonatomic, copy) NSDictionary *auctionData;
+
+
 @end

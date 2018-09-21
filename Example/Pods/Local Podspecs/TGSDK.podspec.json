@@ -1,6 +1,6 @@
 {
   "name": "TGSDK",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "summary": "Yomob Ad SDK",
   "description": "Yomob Ad SDK.",
   "homepage": "https://yomob.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/soulgame/CocoaPods-TGSDK.git",
-    "tag": "1.8.1"
+    "tag": "1.8.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -52,6 +52,7 @@
     "MessageUI",
     "MobileCoreServices",
     "QuartzCore",
+    "SafariServices",
     "Security",
     "Social",
     "StoreKit",
@@ -66,23 +67,27 @@
     "TGSDK/frameworks/AppLovinSDK.framework",
     "TGSDK/frameworks/AppnextLib.framework",
     "TGSDK/frameworks/AppnextSDKCore.framework",
+    "TGSDK/frameworks/BaiduMobAdSDK.framework",
     "TGSDK/frameworks/CHAMoatMobileAppKit.framework",
     "TGSDK/frameworks/Chartboost.framework",
-    "TGSDK/frameworks/DydAdSdk.framework",
     "TGSDK/frameworks/FBAudienceNetwork.framework",
     "TGSDK/frameworks/FMDB.framework",
     "TGSDK/frameworks/GDTMobSDK.framework",
     "TGSDK/frameworks/GoogleMobileAds.framework",
+    "TGSDK/frameworks/InMobi.framework",
     "TGSDK/frameworks/IronSource.framework",
-    "TGSDK/frameworks/MVSDK.framework",
-    "TGSDK/frameworks/MVSDKInterstitial.framework",
-    "TGSDK/frameworks/MVSDKInterstitialVideo.framework",
-    "TGSDK/frameworks/MVSDKReward.framework",
+    "TGSDK/frameworks/MTGSDK.framework",
+    "TGSDK/frameworks/MTGSDKInterstitial.framework",
+    "TGSDK/frameworks/MTGSDKInterstitialVideo.framework",
+    "TGSDK/frameworks/MTGSDKReward.framework",
     "TGSDK/frameworks/PlayableAds.framework",
+    "TGSDK/frameworks/SQMobileAdsSDK.framework",
     "TGSDK/frameworks/Tapjoy.framework",
     "TGSDK/frameworks/UnityAds.framework",
     "TGSDK/frameworks/VungleSDK.framework",
     "TGSDK/frameworks/WMAdSDK.framework",
-    "TGSDK/frameworks/WindSDK.framework"
+    "TGSDK/frameworks/WindSDK.framework",
+    "TGSDK/frameworks/ZZAdSDK.framework",
+    "TGSDK/frameworks/ZZDWKit.framework"
   ]
 }
