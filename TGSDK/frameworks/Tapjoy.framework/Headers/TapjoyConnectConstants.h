@@ -10,6 +10,9 @@
 #define TJC_CONNECT_SUCCESS					@"TJC_Connect_Success"
 #define TJC_CONNECT_FAILED					@"TJC_Connect_Failed"
 
+#define TJC_LIMITED_CONNECT_SUCCESS                    @"TJC_Limited_Connect_Success"
+#define TJC_LIMITED_CONNECT_FAILED                    @"TJC_Limited_Connect_Failed"
+
 // This notification is fired after getCurrencyBalance has been called, and indicates that user currency amount has been received from the server.
 #define TJC_GET_CURRENCY_RESPONSE_NOTIFICATION				@"TJC_GET_CURRENCY_RESPONSE_NOTIFICATION"
 // This notification is fired after spendCurrency has been called, and indicates that the user has successfully spent currency.

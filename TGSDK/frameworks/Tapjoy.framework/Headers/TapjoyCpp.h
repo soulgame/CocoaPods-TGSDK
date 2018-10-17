@@ -386,6 +386,25 @@ namespace tapjoy {
      *        true to disable the push notification
      */
     static void setPushNotificationDisabled(bool disabled);
+      
+    /**
+     * @brief Set Firebase Token to initiate Firebase messaging for your application.
+     *        Call this method when the Firebase token service callback is triggered to update the token.
+     *
+     * @param deviceToken
+     *           deviceToken is a registration token for firebase senderID and AppID to register in Tapjoy Server.
+     *           It is updated through Firebase token service callback triggered everytime Firebase update the token.
+     */
+    static void setDeviceToken(const char* deviceToken);
+      
+    /**
+     * @brief Sets the context and RemoteMessage data so that our SDK can display the push notification.
+     *        Call this when a message is received from Firebase
+     *
+     * @param context: The Application context (jobject)
+     * @param remoteMessage: The message(jobject) received from Firebase
+     */
+    static void setReceiveRemoteNotification(jobject context,jobject remoteMessage);
 #endif
 
     /**
